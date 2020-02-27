@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="9" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="103985" started-at="2020-02-27T13:03:23Z" finished-at="2020-02-27T13:05:07Z">
+    <groups>
+      <group name="prerequisites">
+        <method signature="LoginPage_Test.Check_Login_Is_Successful()[pri:1, instance:com.quo.Login.MainTestPackage.LoginPage_Test@6442b0a6]" name="Check_Login_Is_Successful" class="com.quo.Login.MainTestPackage.LoginPage_Test"/>
+      </group> <!-- prerequisites -->
+    </groups>
+    <test name="Test" duration-ms="103985" started-at="2020-02-27T13:03:23Z" finished-at="2020-02-27T13:05:07Z">
+      <class name="com.quo.Login.MainTestPackage.LoginPage_Test">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.quo.Login.MainTestPackage.LoginPage_Test@6442b0a6]" name="beforeSuite" is-config="true" duration-ms="130" started-at="2020-02-27T18:33:23Z" finished-at="2020-02-27T18:33:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="startTest(java.lang.String)[pri:0, instance:com.quo.Login.MainTestPackage.LoginPage_Test@6442b0a6]" name="startTest" is-config="true" duration-ms="10376" started-at="2020-02-27T18:33:23Z" finished-at="2020-02-27T18:33:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.quo.Login.MainTestPackage.LoginPage_Test@6442b0a6]" name="beforeClass" is-config="true" duration-ms="3" started-at="2020-02-27T18:33:34Z" finished-at="2020-02-27T18:33:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.quo.Login.MainTestPackage.LoginPage_Test@6442b0a6]" name="beforeTest" is-config="true" duration-ms="4860" started-at="2020-02-27T18:33:34Z" finished-at="2020-02-27T18:33:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.quo.Login.MainTestPackage.LoginPage_Test@6442b0a6]" name="beforeMethod" is-config="true" duration-ms="2" started-at="2020-02-27T18:33:38Z" finished-at="2020-02-27T18:33:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.quo.Login.MainTestPackage.LoginPage_Test.Check_Login_Is_Successful()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Check_Login_Is_Successful()[pri:1, instance:com.quo.Login.MainTestPackage.LoginPage_Test@6442b0a6]" name="Check_Login_Is_Successful" duration-ms="14830" started-at="2020-02-27T18:33:38Z" finished-at="2020-02-27T18:33:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Check_Login_Is_Successful -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.quo.Login.MainTestPackage.LoginPage_Test@6442b0a6]" name="afterMethod" is-config="true" duration-ms="711" started-at="2020-02-27T18:33:53Z" finished-at="2020-02-27T18:33:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Check_Login_Is_Successful status=SUCCESS method=LoginPage_Test.Check_Login_Is_Successful()[pri:1, instance:com.quo.Login.MainTestPackage.LoginPage_Test@6442b0a6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.quo.Login.MainTestPackage.LoginPage_Test@6442b0a6]" name="endTest" is-config="true" duration-ms="4110" started-at="2020-02-27T18:35:03Z" finished-at="2020-02-27T18:35:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.quo.Login.MainTestPackage.LoginPage_Test -->
+      <class name="com.quo.SprintReport.MainTestPackage.SprintReportPage_Test">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.quo.SprintReport.MainTestPackage.SprintReportPage_Test@60f82f98]" name="beforeClass" is-config="true" duration-ms="0" started-at="2020-02-27T18:33:54Z" finished-at="2020-02-27T18:33:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="Navigate_To_Sprint_Report()[pri:2, instance:com.quo.SprintReport.MainTestPackage.SprintReportPage_Test@60f82f98]" name="Navigate_To_Sprint_Report" duration-ms="9681" depends-on-groups="prerequisites" started-at="2020-02-27T18:33:54Z" finished-at="2020-02-27T18:34:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Navigate_To_Sprint_Report -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.quo.SprintReport.MainTestPackage.SprintReportPage_Test@60f82f98]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-02-27T18:33:54Z" finished-at="2020-02-27T18:33:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.quo.SprintReport.MainTestPackage.SprintReportPage_Test.Navigate_To_Sprint_Report()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.quo.SprintReport.MainTestPackage.SprintReportPage_Test@60f82f98]" name="afterMethod" is-config="true" duration-ms="511" started-at="2020-02-27T18:34:04Z" finished-at="2020-02-27T18:34:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Navigate_To_Sprint_Report status=SUCCESS method=SprintReportPage_Test.Navigate_To_Sprint_Report()[pri:2, instance:com.quo.SprintReport.MainTestPackage.SprintReportPage_Test@60f82f98] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="Select_Sprint_In_Drop_Down()[pri:3, instance:com.quo.SprintReport.MainTestPackage.SprintReportPage_Test@60f82f98]" name="Select_Sprint_In_Drop_Down" duration-ms="846" started-at="2020-02-27T18:34:04Z" depends-on-methods="com.quo.SprintReport.MainTestPackage.SprintReportPage_Test.Navigate_To_Sprint_Report" finished-at="2020-02-27T18:34:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Select_Sprint_In_Drop_Down -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.quo.SprintReport.MainTestPackage.SprintReportPage_Test@60f82f98]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-02-27T18:34:04Z" finished-at="2020-02-27T18:34:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.quo.SprintReport.MainTestPackage.SprintReportPage_Test.Select_Sprint_In_Drop_Down()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.quo.SprintReport.MainTestPackage.SprintReportPage_Test@60f82f98]" name="afterMethod" is-config="true" duration-ms="524" started-at="2020-02-27T18:34:05Z" finished-at="2020-02-27T18:34:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Select_Sprint_In_Drop_Down status=SUCCESS method=SprintReportPage_Test.Select_Sprint_In_Drop_Down()[pri:3, instance:com.quo.SprintReport.MainTestPackage.SprintReportPage_Test@60f82f98] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.quo.SprintReport.MainTestPackage.SprintReportPage_Test@60f82f98]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-02-27T18:34:06Z" finished-at="2020-02-27T18:34:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.quo.SprintReport.MainTestPackage.SprintReportPage_Test.Generate_XLSX_Template_For_Sprint_Report()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Generate_XLSX_Template_For_Sprint_Report()[pri:4, instance:com.quo.SprintReport.MainTestPackage.SprintReportPage_Test@60f82f98]" name="Generate_XLSX_Template_For_Sprint_Report" duration-ms="803" started-at="2020-02-27T18:34:06Z" depends-on-methods="com.quo.SprintReport.MainTestPackage.SprintReportPage_Test.Select_Sprint_In_Drop_Down" finished-at="2020-02-27T18:34:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Generate_XLSX_Template_For_Sprint_Report -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.quo.SprintReport.MainTestPackage.SprintReportPage_Test@60f82f98]" name="afterMethod" is-config="true" duration-ms="440" started-at="2020-02-27T18:34:06Z" finished-at="2020-02-27T18:34:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Generate_XLSX_Template_For_Sprint_Report status=SUCCESS method=SprintReportPage_Test.Generate_XLSX_Template_For_Sprint_Report()[pri:4, instance:com.quo.SprintReport.MainTestPackage.SprintReportPage_Test@60f82f98] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.quo.SprintReport.MainTestPackage.SprintReportPage_Test@60f82f98]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-02-27T18:34:07Z" finished-at="2020-02-27T18:34:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.quo.SprintReport.MainTestPackage.SprintReportPage_Test.Get_Data_For_Available_Block()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Get_Data_For_Available_Block()[pri:5, instance:com.quo.SprintReport.MainTestPackage.SprintReportPage_Test@60f82f98]" name="Get_Data_For_Available_Block" duration-ms="49699" started-at="2020-02-27T18:34:07Z" depends-on-methods="com.quo.SprintReport.MainTestPackage.SprintReportPage_Test.Generate_XLSX_Template_For_Sprint_Report" finished-at="2020-02-27T18:34:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Get_Data_For_Available_Block -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.quo.SprintReport.MainTestPackage.SprintReportPage_Test@60f82f98]" name="afterMethod" is-config="true" duration-ms="563" started-at="2020-02-27T18:34:57Z" finished-at="2020-02-27T18:34:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Get_Data_For_Available_Block status=SUCCESS method=SprintReportPage_Test.Get_Data_For_Available_Block()[pri:5, instance:com.quo.SprintReport.MainTestPackage.SprintReportPage_Test@60f82f98] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="Send_Report_To_Email()[pri:6, instance:com.quo.SprintReport.MainTestPackage.SprintReportPage_Test@60f82f98]" name="Send_Report_To_Email" duration-ms="5570" started-at="2020-02-27T18:34:57Z" depends-on-methods="com.quo.SprintReport.MainTestPackage.SprintReportPage_Test.Get_Data_For_Available_Block" finished-at="2020-02-27T18:35:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Send_Report_To_Email -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.quo.SprintReport.MainTestPackage.SprintReportPage_Test@60f82f98]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-02-27T18:34:57Z" finished-at="2020-02-27T18:34:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.quo.SprintReport.MainTestPackage.SprintReportPage_Test.Send_Report_To_Email()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.quo.SprintReport.MainTestPackage.SprintReportPage_Test@60f82f98]" name="afterMethod" is-config="true" duration-ms="440" started-at="2020-02-27T18:35:03Z" finished-at="2020-02-27T18:35:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Send_Report_To_Email status=SUCCESS method=SprintReportPage_Test.Send_Report_To_Email()[pri:6, instance:com.quo.SprintReport.MainTestPackage.SprintReportPage_Test@60f82f98] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.quo.SprintReport.MainTestPackage.SprintReportPage_Test -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

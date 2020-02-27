@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>E:\build-0.2\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">6 methods,   6 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.quo.Login.MainTestPackage.LoginPage_Test" hash-for-method="Check_Login_Is_Successful">Check_Login_Is_Successful</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.quo.SprintReport.MainTestPackage.SprintReportPage_Test" hash-for-method="Generate_XLSX_Template_For_Sprint_Report">Generate_XLSX_Template_For_Sprint_Report</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.quo.SprintReport.MainTestPackage.SprintReportPage_Test" hash-for-method="Get_Data_For_Available_Block">Get_Data_For_Available_Block</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.quo.SprintReport.MainTestPackage.SprintReportPage_Test" hash-for-method="Navigate_To_Sprint_Report">Navigate_To_Sprint_Report</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.quo.SprintReport.MainTestPackage.SprintReportPage_Test" hash-for-method="Select_Sprint_In_Drop_Down">Select_Sprint_In_Drop_Down</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.quo.SprintReport.MainTestPackage.SprintReportPage_Test" hash-for-method="Send_Report_To_Email">Send_Report_To_Email</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.quo.SprintReport.MainTestPackage.SprintReportPage_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Generate_XLSX_Template_For_Sprint_Report">
+                  </a> <!-- Generate_XLSX_Template_For_Sprint_Report -->
+                  <span class="method-name">Generate_XLSX_Template_For_Sprint_Report</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Get_Data_For_Available_Block">
+                  </a> <!-- Get_Data_For_Available_Block -->
+                  <span class="method-name">Get_Data_For_Available_Block</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Navigate_To_Sprint_Report">
+                  </a> <!-- Navigate_To_Sprint_Report -->
+                  <span class="method-name">Navigate_To_Sprint_Report</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Select_Sprint_In_Drop_Down">
+                  </a> <!-- Select_Sprint_In_Drop_Down -->
+                  <span class="method-name">Select_Sprint_In_Drop_Down</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Send_Report_To_Email">
+                  </a> <!-- Send_Report_To_Email -->
+                  <span class="method-name">Send_Report_To_Email</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.quo.Login.MainTestPackage.LoginPage_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Check_Login_Is_Successful">
+                  </a> <!-- Check_Login_Is_Successful -->
+                  <span class="method-name">Check_Login_Is_Successful</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">E:\build-0.2\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
+  &lt;test name=&quot;Test&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.quo.Login.MainTestPackage.LoginPage_Test&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;Check_Login_Is_Successful&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.quo.Login.MainTestPackage.LoginPage_Test --&gt;
+      &lt;class name=&quot;com.quo.SprintReport.MainTestPackage.SprintReportPage_Test&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;Navigate_To_Sprint_Report&quot;/&gt;
+          &lt;include name=&quot;Select_Sprint_In_Drop_Down&quot;/&gt;
+          &lt;include name=&quot;Generate_XLSX_Template_For_Sprint_Report&quot;/&gt;
+          &lt;include name=&quot;Get_Data_For_Available_Block&quot;/&gt;
+          &lt;include name=&quot;Send_Report_To_Email&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.quo.SprintReport.MainTestPackage.SprintReportPage_Test --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">prerequisites</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">Check_Login_Is_Successful</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(6);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'Get_Data_For_Available_Block')
+data.setCell(0, 2, 'com.quo.SprintReport.MainTestPackage.SprintReportPage_Test')
+data.setCell(0, 3, 49699);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'Check_Login_Is_Successful')
+data.setCell(1, 2, 'com.quo.Login.MainTestPackage.LoginPage_Test')
+data.setCell(1, 3, 14830);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Navigate_To_Sprint_Report')
+data.setCell(2, 2, 'com.quo.SprintReport.MainTestPackage.SprintReportPage_Test')
+data.setCell(2, 3, 9681);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Send_Report_To_Email')
+data.setCell(3, 2, 'com.quo.SprintReport.MainTestPackage.SprintReportPage_Test')
+data.setCell(3, 3, 5570);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'Select_Sprint_In_Drop_Down')
+data.setCell(4, 2, 'com.quo.SprintReport.MainTestPackage.SprintReportPage_Test')
+data.setCell(4, 3, 846);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'Generate_XLSX_Template_For_Sprint_Report')
+data.setCell(5, 2, 'com.quo.SprintReport.MainTestPackage.SprintReportPage_Test')
+data.setCell(5, 3, 803);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">3 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.quo.SprintReport.MainTestPackage.SprintReportPage_Test</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">endTest</span>
+                <br/>
+                <span class="ignored-method-name">startTest</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.quo.Login.MainTestPackage.LoginPage_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">beforeSuite</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">startTest(chrome)</span>
+                <span class="method-start">130 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">10511 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">10514 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.quo.Login.MainTestPackage.LoginPage_Test.Check_Login_Is_Successful())</span>
+                <span class="method-start">15381 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Check_Login_Is_Successful</span>
+                <span class="method-start">15383 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=Check_Login_Is_Successful status=SUCCESS method=LoginPage_Test.Check_Login_Is_Succe...)</span>
+                <span class="method-start">30213 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.quo.SprintReport.MainTestPackage.SprintReportPage_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">30925 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">Navigate_To_Sprint_Report</span>
+                <span class="method-start">30926 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.quo.SprintReport.MainTestPackage.SprintReportPage_Test.Navigate_To_Sprint_Report())</span>
+                <span class="method-start">30926 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=Navigate_To_Sprint_Report status=SUCCESS method=SprintReportPage_Test.Navigate_To_S...)</span>
+                <span class="method-start">40607 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Select_Sprint_In_Drop_Down</span>
+                <span class="method-start">41118 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.quo.SprintReport.MainTestPackage.SprintReportPage_Test.Select_Sprint_In_Drop_Down())</span>
+                <span class="method-start">41118 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=Select_Sprint_In_Drop_Down status=SUCCESS method=SprintReportPage_Test.Select_Sprin...)</span>
+                <span class="method-start">41964 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Generate_XLSX_Template_For_Sprint_Report</span>
+                <span class="method-start">42488 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.quo.SprintReport.MainTestPackage.SprintReportPage_Test.Generate_XLSX_Template_For_Sp...)</span>
+                <span class="method-start">42488 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=Generate_XLSX_Template_For_Sprint_Report status=SUCCESS method=SprintReportPage_Tes...)</span>
+                <span class="method-start">43292 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Get_Data_For_Available_Block</span>
+                <span class="method-start">43732 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.quo.SprintReport.MainTestPackage.SprintReportPage_Test.Get_Data_For_Available_Block(...)</span>
+                <span class="method-start">43732 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=Get_Data_For_Available_Block status=SUCCESS method=SprintReportPage_Test.Get_Data_F...)</span>
+                <span class="method-start">93431 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Send_Report_To_Email</span>
+                <span class="method-start">93994 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.quo.SprintReport.MainTestPackage.SprintReportPage_Test.Send_Report_To_Email())</span>
+                <span class="method-start">93994 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=Send_Report_To_Email status=SUCCESS method=SprintReportPage_Test.Send_Report_To_Ema...)</span>
+                <span class="method-start">99564 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.quo.Login.MainTestPackage.LoginPage_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">endTest</span>
+                <span class="method-start">100005 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

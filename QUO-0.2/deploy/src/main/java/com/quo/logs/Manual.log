@@ -1,0 +1,624 @@
+27/02/2020 18:33:23 devpinoyLogger Script is run by: Naman Agrawal
+27/02/2020 18:33:23 devpinoyLogger Moved the success screenshots to Backup Directory
+27/02/2020 18:33:23 devpinoyLogger Moved the failure screenshots to Backup Directory
+27/02/2020 18:33:23 devpinoyLogger Cleared the ScreenShots > Failure directory.
+27/02/2020 18:33:23 devpinoyLogger Cleared the ScreenShots > Success directory.
+27/02/2020 18:33:34 devpinoyLogger Chrome browser started: CDwindow-269EDCB422E8D8C1BC6E9A62C777AA01
+27/02/2020 18:33:38 devpinoyLogger Test Case Started: Check_Login_Is_Successful
+27/02/2020 18:33:40 devpinoyLogger Click on Google Sign-In button
+27/02/2020 18:33:41 devpinoyLogger Enter email: naman.agrawal@quovantis.com
+27/02/2020 18:33:42 devpinoyLogger Enter password: **********
+27/02/2020 18:33:53 devpinoyLogger Test Case Completed: Check_Login_Is_Successful
+27/02/2020 18:33:54 devpinoyLogger Test Case Started: Navigate_To_Sprint_Report
+27/02/2020 18:33:58 devpinoyLogger Navigation panel is displayed: false
+27/02/2020 18:33:58 devpinoyLogger Open left navigation panel.
+27/02/2020 18:34:01 devpinoyLogger Click on Reports link in left navigation.
+27/02/2020 18:34:04 devpinoyLogger Click on Sprint Report.
+27/02/2020 18:34:04 devpinoyLogger Sprint header text is: Sprint Report
+27/02/2020 18:34:04 devpinoyLogger Test Case Completed: Navigate_To_Sprint_Report
+27/02/2020 18:34:04 devpinoyLogger Test Case Started: Select_Sprint_In_Drop_Down
+27/02/2020 18:34:04 devpinoyLogger Current sprint dropdown text is: START4: Sprint 47
+27/02/2020 18:34:04 devpinoyLogger Click on Sprint Dropdown.
+27/02/2020 18:34:05 devpinoyLogger Selected Sprint in dropdown: START4: Sprint 30
+27/02/2020 18:34:05 devpinoyLogger Test Case Completed: Select_Sprint_In_Drop_Down
+27/02/2020 18:34:06 devpinoyLogger Test Case Started: Generate_XLSX_Template_For_Sprint_Report
+27/02/2020 18:34:06 devpinoyLogger Completed Issues sheet added
+27/02/2020 18:34:06 devpinoyLogger Issues Not Completed sheet added
+27/02/2020 18:34:06 devpinoyLogger Issues completed outside sheet added
+27/02/2020 18:34:06 devpinoyLogger Issues Removed From Sprint sheet added
+27/02/2020 18:34:06 devpinoyLogger Test Case Completed: Generate_XLSX_Template_For_Sprint_Report
+27/02/2020 18:34:07 devpinoyLogger Test Case Started: Get_Data_For_Available_Block
+27/02/2020 18:34:07 devpinoyLogger Click on Issue Navigator for Completed Issue.
+27/02/2020 18:34:11 devpinoyLogger Sprint Report table header count: 11
+27/02/2020 18:34:11 devpinoyLogger Sprint Report table row count: 14
+27/02/2020 18:34:11 devpinoyLogger Sprint Report table header text on position 1 is: Summary
+27/02/2020 18:34:11 devpinoyLogger Sprint Report row 1 header 1 position text is: If a user hierarchy node is updated then it results in the incorrect rendering of hierarchy tree when a regular user logged in to Start4.
+27/02/2020 18:34:11 devpinoyLogger Sprint Report row 2 header 1 position text is: Supplemental Items : User is not able to see any supplemental items on reporting pages
+27/02/2020 18:34:12 devpinoyLogger Sprint Report row 3 header 1 position text is: Switch Survey: On switch survey, if a user does not select the hierarchy node it results in incorrect rendering of hierarchy tree.
+27/02/2020 18:34:12 devpinoyLogger Sprint Report row 4 header 1 position text is: Implement Dashboard API
+27/02/2020 18:34:12 devpinoyLogger Sprint Report row 5 header 1 position text is: Allow user to login into Minders
+27/02/2020 18:34:12 devpinoyLogger Sprint Report row 6 header 1 position text is: Survey Config: No border is shown on KPI in case of item, when the validation is getting off
+27/02/2020 18:34:12 devpinoyLogger Sprint Report row 7 header 1 position text is: Time Trend: Null value is not handled when exporting report for All Items
+27/02/2020 18:34:12 devpinoyLogger Sprint Report row 8 header 1 position text is: Hide Driver Matrix in under menu and slide config if it's not configured in survey config
+27/02/2020 18:34:12 devpinoyLogger Sprint Report row 9 header 1 position text is: START3: Time Trend issue (Error downloading time trend)
+27/02/2020 18:34:12 devpinoyLogger Sprint Report row 10 header 1 position text is: (May) Replicate the change we made to Start 3 filters to Start 4 where you can choose a single hierarchy node (which unselects prior selections) or select multiple hierarchy nodes
+27/02/2020 18:34:12 devpinoyLogger Sprint Report row 11 header 1 position text is: (May) Sortable headers on the Multi-select
+27/02/2020 18:34:12 devpinoyLogger Sprint Report row 12 header 1 position text is: (May) Sortable headers on the DD Table
+27/02/2020 18:34:12 devpinoyLogger Sprint Report row 13 header 1 position text is: START3: Show/Hide TimeTrend page using Property
+27/02/2020 18:34:13 devpinoyLogger Sprint Report row 14 header 1 position text is: (Apr) users who log into a report but also have org admin on a different folder should be able to switch back to another client bucket if they choose
+27/02/2020 18:34:13 devpinoyLogger Sprint Report table header text on position 2 is: Reporter
+27/02/2020 18:34:13 devpinoyLogger Sprint Report table header text on position 3 is: P
+27/02/2020 18:34:13 devpinoyLogger Sprint Report table header text on position 4 is: Status
+27/02/2020 18:34:13 devpinoyLogger Sprint Report table header text on position 5 is: Resolution
+27/02/2020 18:34:13 devpinoyLogger Sprint Report table header text on position 6 is: Updated
+27/02/2020 18:34:13 devpinoyLogger Sprint Report table header text on position 7 is: Description
+27/02/2020 18:34:13 devpinoyLogger Sprint Report table header text on position 8 is: Key
+27/02/2020 18:34:13 devpinoyLogger Sprint Report table header text on position 9 is: QA Owner
+27/02/2020 18:34:13 devpinoyLogger Sprint Report table header text on position 10 is: Time Spent
+27/02/2020 18:34:13 devpinoyLogger Sprint Report table header text on position 11 is: 
+27/02/2020 18:34:13 devpinoyLogger Sprint Report table header text on position 1 is: Summary
+27/02/2020 18:34:13 devpinoyLogger Sprint Report table header text on position 2 is: Reporter
+27/02/2020 18:34:13 devpinoyLogger Sprint Report table header text on position 3 is: P
+27/02/2020 18:34:13 devpinoyLogger Sprint Report table header text on position 4 is: Status
+27/02/2020 18:34:13 devpinoyLogger Sprint Report table header text on position 5 is: Resolution
+27/02/2020 18:34:13 devpinoyLogger Sprint Report table header text on position 6 is: Updated
+27/02/2020 18:34:13 devpinoyLogger Sprint Report table header text on position 7 is: Description
+27/02/2020 18:34:14 devpinoyLogger Sprint Report table header text on position 8 is: Key
+27/02/2020 18:34:14 devpinoyLogger Sprint Report row 1 header 8 position text is: S4-3338
+27/02/2020 18:34:14 devpinoyLogger Sprint Report row 2 header 8 position text is: S4-3328
+27/02/2020 18:34:14 devpinoyLogger Sprint Report row 3 header 8 position text is: S4-3295
+27/02/2020 18:34:14 devpinoyLogger Sprint Report row 4 header 8 position text is: S4-3272
+27/02/2020 18:34:14 devpinoyLogger Sprint Report row 5 header 8 position text is: S4-3271
+27/02/2020 18:34:14 devpinoyLogger Sprint Report row 6 header 8 position text is: S4-3224
+27/02/2020 18:34:14 devpinoyLogger Sprint Report row 7 header 8 position text is: S4-3220
+27/02/2020 18:34:14 devpinoyLogger Sprint Report row 8 header 8 position text is: S4-3166
+27/02/2020 18:34:14 devpinoyLogger Sprint Report row 9 header 8 position text is: S4-3165
+27/02/2020 18:34:14 devpinoyLogger Sprint Report row 10 header 8 position text is: S4-3144
+27/02/2020 18:34:14 devpinoyLogger Sprint Report row 11 header 8 position text is: S4-3132
+27/02/2020 18:34:14 devpinoyLogger Sprint Report row 12 header 8 position text is: S4-3131
+27/02/2020 18:34:15 devpinoyLogger Sprint Report row 13 header 8 position text is: S4-3116
+27/02/2020 18:34:15 devpinoyLogger Sprint Report row 14 header 8 position text is: S4-2634
+27/02/2020 18:34:15 devpinoyLogger Sprint Report table header text on position 9 is: QA Owner
+27/02/2020 18:34:15 devpinoyLogger Sprint Report table header text on position 10 is: Time Spent
+27/02/2020 18:34:15 devpinoyLogger Sprint Report table header text on position 11 is: 
+27/02/2020 18:34:15 devpinoyLogger Sprint Report table header text on position 1 is: Summary
+27/02/2020 18:34:15 devpinoyLogger Sprint Report table header text on position 2 is: Reporter
+27/02/2020 18:34:15 devpinoyLogger Sprint Report table header text on position 3 is: P
+27/02/2020 18:34:15 devpinoyLogger Sprint Report table header text on position 4 is: Status
+27/02/2020 18:34:15 devpinoyLogger Sprint Report table header text on position 5 is: Resolution
+27/02/2020 18:34:15 devpinoyLogger Sprint Report table header text on position 6 is: Updated
+27/02/2020 18:34:15 devpinoyLogger Sprint Report table header text on position 7 is: Description
+27/02/2020 18:34:15 devpinoyLogger Sprint Report table header text on position 8 is: Key
+27/02/2020 18:34:15 devpinoyLogger Sprint Report table header text on position 9 is: QA Owner
+27/02/2020 18:34:15 devpinoyLogger Sprint Report table header text on position 10 is: Time Spent
+27/02/2020 18:34:15 devpinoyLogger Sprint Report table header text on position 11 is: 
+27/02/2020 18:34:15 devpinoyLogger Sprint Report table header text on position 1 is: Summary
+27/02/2020 18:34:15 devpinoyLogger Sprint Report table header text on position 2 is: Reporter
+27/02/2020 18:34:15 devpinoyLogger Sprint Report table header text on position 3 is: P
+27/02/2020 18:34:15 devpinoyLogger Sprint Report table header text on position 4 is: Status
+27/02/2020 18:34:16 devpinoyLogger Sprint Report row 1 header 4 position text is: DONE
+27/02/2020 18:34:16 devpinoyLogger Sprint Report row 2 header 4 position text is: DONE
+27/02/2020 18:34:16 devpinoyLogger Sprint Report row 3 header 4 position text is: DONE
+27/02/2020 18:34:16 devpinoyLogger Sprint Report row 4 header 4 position text is: DONE
+27/02/2020 18:34:16 devpinoyLogger Sprint Report row 5 header 4 position text is: DONE
+27/02/2020 18:34:16 devpinoyLogger Sprint Report row 6 header 4 position text is: DONE
+27/02/2020 18:34:16 devpinoyLogger Sprint Report row 7 header 4 position text is: DONE
+27/02/2020 18:34:16 devpinoyLogger Sprint Report row 8 header 4 position text is: DONE
+27/02/2020 18:34:16 devpinoyLogger Sprint Report row 9 header 4 position text is: DONE
+27/02/2020 18:34:16 devpinoyLogger Sprint Report row 10 header 4 position text is: DONE
+27/02/2020 18:34:16 devpinoyLogger Sprint Report row 11 header 4 position text is: DONE
+27/02/2020 18:34:16 devpinoyLogger Sprint Report row 12 header 4 position text is: DONE
+27/02/2020 18:34:16 devpinoyLogger Sprint Report row 13 header 4 position text is: DONE
+27/02/2020 18:34:16 devpinoyLogger Sprint Report row 14 header 4 position text is: DONE
+27/02/2020 18:34:17 devpinoyLogger Sprint Report table header text on position 5 is: Resolution
+27/02/2020 18:34:17 devpinoyLogger Sprint Report table header text on position 6 is: Updated
+27/02/2020 18:34:17 devpinoyLogger Sprint Report table header text on position 7 is: Description
+27/02/2020 18:34:17 devpinoyLogger Sprint Report table header text on position 8 is: Key
+27/02/2020 18:34:17 devpinoyLogger Sprint Report table header text on position 9 is: QA Owner
+27/02/2020 18:34:17 devpinoyLogger Sprint Report table header text on position 10 is: Time Spent
+27/02/2020 18:34:17 devpinoyLogger Sprint Report table header text on position 11 is: 
+27/02/2020 18:34:17 devpinoyLogger Sprint Report table header text on position 1 is: Summary
+27/02/2020 18:34:17 devpinoyLogger Sprint Report table header text on position 2 is: Reporter
+27/02/2020 18:34:17 devpinoyLogger Sprint Report table header text on position 3 is: P
+27/02/2020 18:34:17 devpinoyLogger Sprint Report table header text on position 4 is: Status
+27/02/2020 18:34:17 devpinoyLogger Sprint Report table header text on position 5 is: Resolution
+27/02/2020 18:34:17 devpinoyLogger Sprint Report table header text on position 6 is: Updated
+27/02/2020 18:34:17 devpinoyLogger Sprint Report table header text on position 7 is: Description
+27/02/2020 18:34:17 devpinoyLogger Sprint Report table header text on position 8 is: Key
+27/02/2020 18:34:17 devpinoyLogger Sprint Report table header text on position 9 is: QA Owner
+27/02/2020 18:34:17 devpinoyLogger Sprint Report row 1 header 9 position text is: Naman Agrawal
+27/02/2020 18:34:17 devpinoyLogger Sprint Report row 2 header 9 position text is: 
+27/02/2020 18:34:17 devpinoyLogger Sprint Report row 3 header 9 position text is: Naman Agrawal
+27/02/2020 18:34:17 devpinoyLogger Sprint Report row 4 header 9 position text is: 
+27/02/2020 18:34:17 devpinoyLogger Sprint Report row 5 header 9 position text is: 
+27/02/2020 18:34:18 devpinoyLogger Sprint Report row 6 header 9 position text is: Manish Bhayana
+27/02/2020 18:34:18 devpinoyLogger Sprint Report row 7 header 9 position text is: Manish Bhayana
+27/02/2020 18:34:18 devpinoyLogger Sprint Report row 8 header 9 position text is: Manish Bhayana
+27/02/2020 18:34:18 devpinoyLogger Sprint Report row 9 header 9 position text is: Manish Bhayana
+27/02/2020 18:34:18 devpinoyLogger Sprint Report row 10 header 9 position text is: Pratik Agrawal
+27/02/2020 18:34:18 devpinoyLogger Sprint Report row 11 header 9 position text is: Rijul Katyal
+27/02/2020 18:34:18 devpinoyLogger Sprint Report row 12 header 9 position text is: Rijul Katyal
+27/02/2020 18:34:18 devpinoyLogger Sprint Report row 13 header 9 position text is: Pratik Agrawal
+27/02/2020 18:34:18 devpinoyLogger Sprint Report row 14 header 9 position text is: Rijul Katyal
+27/02/2020 18:34:18 devpinoyLogger Sprint Report table header text on position 10 is: Time Spent
+27/02/2020 18:34:18 devpinoyLogger Sprint Report table header text on position 11 is: 
+27/02/2020 18:34:18 devpinoyLogger Sprint Report table header text on position 1 is: Summary
+27/02/2020 18:34:18 devpinoyLogger Sprint Report table header text on position 2 is: Reporter
+27/02/2020 18:34:18 devpinoyLogger Sprint Report table header text on position 3 is: P
+27/02/2020 18:34:18 devpinoyLogger Sprint Report table header text on position 4 is: Status
+27/02/2020 18:34:18 devpinoyLogger Sprint Report table header text on position 5 is: Resolution
+27/02/2020 18:34:18 devpinoyLogger Sprint Report table header text on position 6 is: Updated
+27/02/2020 18:34:18 devpinoyLogger Sprint Report table header text on position 7 is: Description
+27/02/2020 18:34:19 devpinoyLogger Sprint Report table header text on position 8 is: Key
+27/02/2020 18:34:19 devpinoyLogger Sprint Report table header text on position 9 is: QA Owner
+27/02/2020 18:34:19 devpinoyLogger Sprint Report table header text on position 10 is: Time Spent
+27/02/2020 18:34:19 devpinoyLogger Sprint Report table header text on position 11 is: 
+27/02/2020 18:34:19 devpinoyLogger Sprint Report table header text on position 1 is: Summary
+27/02/2020 18:34:19 devpinoyLogger Sprint Report table header text on position 2 is: Reporter
+27/02/2020 18:34:19 devpinoyLogger Sprint Report table header text on position 3 is: P
+27/02/2020 18:34:19 devpinoyLogger Sprint Report table header text on position 4 is: Status
+27/02/2020 18:34:19 devpinoyLogger Sprint Report table header text on position 5 is: Resolution
+27/02/2020 18:34:19 devpinoyLogger Sprint Report table header text on position 6 is: Updated
+27/02/2020 18:34:19 devpinoyLogger Sprint Report table header text on position 7 is: Description
+27/02/2020 18:34:19 devpinoyLogger Sprint Report table header text on position 8 is: Key
+27/02/2020 18:34:19 devpinoyLogger Sprint Report table header text on position 9 is: QA Owner
+27/02/2020 18:34:19 devpinoyLogger Sprint Report table header text on position 10 is: Time Spent
+27/02/2020 18:34:19 devpinoyLogger Sprint Report row 1 header 10 position text is: 2 hours
+27/02/2020 18:34:19 devpinoyLogger Sprint Report row 2 header 10 position text is: 5 hours
+27/02/2020 18:34:19 devpinoyLogger Sprint Report row 3 header 10 position text is: 4 hours
+27/02/2020 18:34:19 devpinoyLogger Sprint Report row 4 header 10 position text is: 
+27/02/2020 18:34:19 devpinoyLogger Sprint Report row 5 header 10 position text is: 
+27/02/2020 18:34:19 devpinoyLogger Sprint Report row 6 header 10 position text is: 2 hours
+27/02/2020 18:34:20 devpinoyLogger Sprint Report row 7 header 10 position text is: 2 hours
+27/02/2020 18:34:20 devpinoyLogger Sprint Report row 8 header 10 position text is: 1 hour
+27/02/2020 18:34:20 devpinoyLogger Sprint Report row 9 header 10 position text is: 6 hours
+27/02/2020 18:34:20 devpinoyLogger Sprint Report row 10 header 10 position text is: 
+27/02/2020 18:34:20 devpinoyLogger Sprint Report row 11 header 10 position text is: 
+27/02/2020 18:34:20 devpinoyLogger Sprint Report row 12 header 10 position text is: 
+27/02/2020 18:34:20 devpinoyLogger Sprint Report row 13 header 10 position text is: 30 minutes
+27/02/2020 18:34:20 devpinoyLogger Sprint Report row 14 header 10 position text is: 2 hours
+27/02/2020 18:34:20 devpinoyLogger Sprint Report table header text on position 11 is: 
+27/02/2020 18:34:20 devpinoyLogger Sprint Report table header text on position 1 is: Summary
+27/02/2020 18:34:20 devpinoyLogger Sprint Report table header text on position 2 is: Reporter
+27/02/2020 18:34:20 devpinoyLogger Sprint Report table header text on position 3 is: P
+27/02/2020 18:34:20 devpinoyLogger Sprint Report table header text on position 4 is: Status
+27/02/2020 18:34:20 devpinoyLogger Sprint Report table header text on position 5 is: Resolution
+27/02/2020 18:34:20 devpinoyLogger Sprint Report table header text on position 6 is: Updated
+27/02/2020 18:34:20 devpinoyLogger Sprint Report row 1 header 6 position text is: 24/May/19
+27/02/2020 18:34:20 devpinoyLogger Sprint Report row 2 header 6 position text is: 24/May/19
+27/02/2020 18:34:20 devpinoyLogger Sprint Report row 3 header 6 position text is: 15/May/19
+27/02/2020 18:34:21 devpinoyLogger Sprint Report row 4 header 6 position text is: 24/May/19
+27/02/2020 18:34:21 devpinoyLogger Sprint Report row 5 header 6 position text is: 24/May/19
+27/02/2020 18:34:21 devpinoyLogger Sprint Report row 6 header 6 position text is: 16/May/19
+27/02/2020 18:34:21 devpinoyLogger Sprint Report row 7 header 6 position text is: 17/May/19
+27/02/2020 18:34:21 devpinoyLogger Sprint Report row 8 header 6 position text is: 20/May/19
+27/02/2020 18:34:21 devpinoyLogger Sprint Report row 9 header 6 position text is: 17/May/19
+27/02/2020 18:34:21 devpinoyLogger Sprint Report row 10 header 6 position text is: 24/May/19
+27/02/2020 18:34:21 devpinoyLogger Sprint Report row 11 header 6 position text is: 16/May/19
+27/02/2020 18:34:21 devpinoyLogger Sprint Report row 12 header 6 position text is: 24/May/19
+27/02/2020 18:34:21 devpinoyLogger Sprint Report row 13 header 6 position text is: 20/May/19
+27/02/2020 18:34:21 devpinoyLogger Sprint Report row 14 header 6 position text is: 14/May/19
+27/02/2020 18:34:21 devpinoyLogger Sprint Report table header text on position 7 is: Description
+27/02/2020 18:34:21 devpinoyLogger Sprint Report table header text on position 8 is: Key
+27/02/2020 18:34:21 devpinoyLogger Sprint Report table header text on position 9 is: QA Owner
+27/02/2020 18:34:21 devpinoyLogger Sprint Report table header text on position 10 is: Time Spent
+27/02/2020 18:34:21 devpinoyLogger Sprint Report table header text on position 11 is: 
+27/02/2020 18:34:22 devpinoyLogger Closed Completed Issue Window.
+27/02/2020 18:34:22 devpinoyLogger Click on Navigator for Issue Not Completed.
+27/02/2020 18:34:26 devpinoyLogger Sprint Report table header count: 11
+27/02/2020 18:34:26 devpinoyLogger Sprint Report table row count: 20
+27/02/2020 18:34:26 devpinoyLogger Sprint Report table header text on position 1 is: Summary
+27/02/2020 18:34:26 devpinoyLogger Sprint Report row 1 header 1 position text is: Blank demographic filter section appears for an anonymous survey that has scored questions.
+27/02/2020 18:34:26 devpinoyLogger Sprint Report row 2 header 1 position text is: SSO Validation for Regular and Client User Specific Issue
+27/02/2020 18:34:26 devpinoyLogger Sprint Report row 3 header 1 position text is: SSO validation for client specific Issue
+27/02/2020 18:34:26 devpinoyLogger Sprint Report row 4 header 1 position text is: Start3 : Hide/Show questions filters via new property
+27/02/2020 18:34:26 devpinoyLogger Sprint Report row 5 header 1 position text is: User Management shows roles to which a user manager does not have access to on the roles drop down while creating/editing a user.
+27/02/2020 18:34:27 devpinoyLogger Sprint Report row 6 header 1 position text is: Survey Property: AllowActionPlanForTheme property cannot be switched off.
+27/02/2020 18:34:27 devpinoyLogger Sprint Report row 7 header 1 position text is: Support hierarchy trending via mapping table, to allow for different node IDs to map to each other
+27/02/2020 18:34:27 devpinoyLogger Sprint Report row 8 header 1 position text is: All Results & Time Trend: Text wrap issue on exported excel file for headers and item/theme text
+27/02/2020 18:34:27 devpinoyLogger Sprint Report row 9 header 1 position text is: Time Trend: Current item text is missing in exported excel file
+27/02/2020 18:34:27 devpinoyLogger Sprint Report row 10 header 1 position text is: SSO based user authentication should be client specific
+27/02/2020 18:34:27 devpinoyLogger Sprint Report row 11 header 1 position text is: Boolean query search with multiple And/ OR do not work consistently.
+27/02/2020 18:34:27 devpinoyLogger Sprint Report row 12 header 1 position text is: Uncategorized comments are appearing on Dashboard whereas its not appearing on word cloud page
+27/02/2020 18:34:27 devpinoyLogger Sprint Report row 13 header 1 position text is: Change Word Cloud Implementation To Use D3JS
+27/02/2020 18:34:27 devpinoyLogger Sprint Report row 14 header 1 position text is: Survey Builder:Error message appearing on roster upload
+27/02/2020 18:34:27 devpinoyLogger Sprint Report row 15 header 1 position text is: User is being shown duplicate hexagons for a single item on dashboard under key indicators
+27/02/2020 18:34:27 devpinoyLogger Sprint Report row 16 header 1 position text is: Production: Start4: Less cards are getting render on team breakdown page
+27/02/2020 18:34:28 devpinoyLogger Sprint Report row 17 header 1 position text is: Translations: Add support for Chinese and provide fallback support for requested culture
+27/02/2020 18:34:28 devpinoyLogger Sprint Report row 18 header 1 position text is: Survey Configuration Slide Translation
+27/02/2020 18:34:28 devpinoyLogger Sprint Report row 19 header 1 position text is: (May) Run NLP on comments offline in case where we did not enable NLP initially but want to include it now
+27/02/2020 18:34:28 devpinoyLogger Sprint Report row 20 header 1 position text is: Link card implementation of Dashboard KPI
+27/02/2020 18:34:28 devpinoyLogger Sprint Report table header text on position 2 is: Reporter
+27/02/2020 18:34:28 devpinoyLogger Sprint Report table header text on position 3 is: P
+27/02/2020 18:34:28 devpinoyLogger Sprint Report table header text on position 4 is: Status
+27/02/2020 18:34:28 devpinoyLogger Sprint Report table header text on position 5 is: Resolution
+27/02/2020 18:34:28 devpinoyLogger Sprint Report table header text on position 6 is: Updated
+27/02/2020 18:34:28 devpinoyLogger Sprint Report table header text on position 7 is: Description
+27/02/2020 18:34:28 devpinoyLogger Sprint Report table header text on position 8 is: Key
+27/02/2020 18:34:28 devpinoyLogger Sprint Report table header text on position 9 is: QA Owner
+27/02/2020 18:34:28 devpinoyLogger Sprint Report table header text on position 10 is: Time Spent
+27/02/2020 18:34:28 devpinoyLogger Sprint Report table header text on position 11 is: 
+27/02/2020 18:34:28 devpinoyLogger Sprint Report table header text on position 1 is: Summary
+27/02/2020 18:34:28 devpinoyLogger Sprint Report table header text on position 2 is: Reporter
+27/02/2020 18:34:28 devpinoyLogger Sprint Report table header text on position 3 is: P
+27/02/2020 18:34:29 devpinoyLogger Sprint Report table header text on position 4 is: Status
+27/02/2020 18:34:29 devpinoyLogger Sprint Report table header text on position 5 is: Resolution
+27/02/2020 18:34:29 devpinoyLogger Sprint Report table header text on position 6 is: Updated
+27/02/2020 18:34:29 devpinoyLogger Sprint Report table header text on position 7 is: Description
+27/02/2020 18:34:29 devpinoyLogger Sprint Report table header text on position 8 is: Key
+27/02/2020 18:34:29 devpinoyLogger Sprint Report row 1 header 8 position text is: S4-3348
+27/02/2020 18:34:29 devpinoyLogger Sprint Report row 2 header 8 position text is: S4-3330
+27/02/2020 18:34:29 devpinoyLogger Sprint Report row 3 header 8 position text is: S4-3329
+27/02/2020 18:34:29 devpinoyLogger Sprint Report row 4 header 8 position text is: S4-3314
+27/02/2020 18:34:29 devpinoyLogger Sprint Report row 5 header 8 position text is: S4-3297
+27/02/2020 18:34:29 devpinoyLogger Sprint Report row 6 header 8 position text is: S4-3296
+27/02/2020 18:34:29 devpinoyLogger Sprint Report row 7 header 8 position text is: S4-3287
+27/02/2020 18:34:29 devpinoyLogger Sprint Report row 8 header 8 position text is: S4-3223
+27/02/2020 18:34:29 devpinoyLogger Sprint Report row 9 header 8 position text is: S4-3222
+27/02/2020 18:34:29 devpinoyLogger Sprint Report row 10 header 8 position text is: S4-3217
+27/02/2020 18:34:29 devpinoyLogger Sprint Report row 11 header 8 position text is: S4-3216
+27/02/2020 18:34:29 devpinoyLogger Sprint Report row 12 header 8 position text is: S4-3206
+27/02/2020 18:34:30 devpinoyLogger Sprint Report row 13 header 8 position text is: S4-3203
+27/02/2020 18:34:30 devpinoyLogger Sprint Report row 14 header 8 position text is: S4-3150
+27/02/2020 18:34:30 devpinoyLogger Sprint Report row 15 header 8 position text is: S4-3105
+27/02/2020 18:34:30 devpinoyLogger Sprint Report row 16 header 8 position text is: S4-3096
+27/02/2020 18:34:30 devpinoyLogger Sprint Report row 17 header 8 position text is: S4-3083
+27/02/2020 18:34:30 devpinoyLogger Sprint Report row 18 header 8 position text is: S4-2757
+27/02/2020 18:34:30 devpinoyLogger Sprint Report row 19 header 8 position text is: S4-2595
+27/02/2020 18:34:30 devpinoyLogger Sprint Report row 20 header 8 position text is: S4-1996
+27/02/2020 18:34:30 devpinoyLogger Sprint Report table header text on position 9 is: QA Owner
+27/02/2020 18:34:30 devpinoyLogger Sprint Report table header text on position 10 is: Time Spent
+27/02/2020 18:34:30 devpinoyLogger Sprint Report table header text on position 11 is: 
+27/02/2020 18:34:30 devpinoyLogger Sprint Report table header text on position 1 is: Summary
+27/02/2020 18:34:30 devpinoyLogger Sprint Report table header text on position 2 is: Reporter
+27/02/2020 18:34:30 devpinoyLogger Sprint Report table header text on position 3 is: P
+27/02/2020 18:34:30 devpinoyLogger Sprint Report table header text on position 4 is: Status
+27/02/2020 18:34:30 devpinoyLogger Sprint Report table header text on position 5 is: Resolution
+27/02/2020 18:34:30 devpinoyLogger Sprint Report table header text on position 6 is: Updated
+27/02/2020 18:34:30 devpinoyLogger Sprint Report table header text on position 7 is: Description
+27/02/2020 18:34:30 devpinoyLogger Sprint Report table header text on position 8 is: Key
+27/02/2020 18:34:31 devpinoyLogger Sprint Report table header text on position 9 is: QA Owner
+27/02/2020 18:34:31 devpinoyLogger Sprint Report table header text on position 10 is: Time Spent
+27/02/2020 18:34:31 devpinoyLogger Sprint Report table header text on position 11 is: 
+27/02/2020 18:34:31 devpinoyLogger Sprint Report table header text on position 1 is: Summary
+27/02/2020 18:34:31 devpinoyLogger Sprint Report table header text on position 2 is: Reporter
+27/02/2020 18:34:31 devpinoyLogger Sprint Report table header text on position 3 is: P
+27/02/2020 18:34:31 devpinoyLogger Sprint Report table header text on position 4 is: Status
+27/02/2020 18:34:31 devpinoyLogger Sprint Report row 1 header 4 position text is: DONE
+27/02/2020 18:34:31 devpinoyLogger Sprint Report row 2 header 4 position text is: OPEN
+27/02/2020 18:34:31 devpinoyLogger Sprint Report row 3 header 4 position text is: OPEN
+27/02/2020 18:34:31 devpinoyLogger Sprint Report row 4 header 4 position text is: RESOLVED
+27/02/2020 18:34:31 devpinoyLogger Sprint Report row 5 header 4 position text is: DONE
+27/02/2020 18:34:31 devpinoyLogger Sprint Report row 6 header 4 position text is: DONE
+27/02/2020 18:34:31 devpinoyLogger Sprint Report row 7 header 4 position text is: DONE
+27/02/2020 18:34:31 devpinoyLogger Sprint Report row 8 header 4 position text is: IN PROGRESS
+27/02/2020 18:34:31 devpinoyLogger Sprint Report row 9 header 4 position text is: DONE
+27/02/2020 18:34:31 devpinoyLogger Sprint Report row 10 header 4 position text is: DONE
+27/02/2020 18:34:31 devpinoyLogger Sprint Report row 11 header 4 position text is: DONE
+27/02/2020 18:34:32 devpinoyLogger Sprint Report row 12 header 4 position text is: DONE
+27/02/2020 18:34:32 devpinoyLogger Sprint Report row 13 header 4 position text is: DONE
+27/02/2020 18:34:32 devpinoyLogger Sprint Report row 14 header 4 position text is: OPEN
+27/02/2020 18:34:32 devpinoyLogger Sprint Report row 15 header 4 position text is: DONE
+27/02/2020 18:34:32 devpinoyLogger Sprint Report row 16 header 4 position text is: OPEN
+27/02/2020 18:34:32 devpinoyLogger Sprint Report row 17 header 4 position text is: DONE
+27/02/2020 18:34:32 devpinoyLogger Sprint Report row 18 header 4 position text is: DONE
+27/02/2020 18:34:32 devpinoyLogger Sprint Report row 19 header 4 position text is: DONE
+27/02/2020 18:34:32 devpinoyLogger Sprint Report row 20 header 4 position text is: DONE
+27/02/2020 18:34:32 devpinoyLogger Sprint Report table header text on position 5 is: Resolution
+27/02/2020 18:34:32 devpinoyLogger Sprint Report table header text on position 6 is: Updated
+27/02/2020 18:34:32 devpinoyLogger Sprint Report table header text on position 7 is: Description
+27/02/2020 18:34:32 devpinoyLogger Sprint Report table header text on position 8 is: Key
+27/02/2020 18:34:32 devpinoyLogger Sprint Report table header text on position 9 is: QA Owner
+27/02/2020 18:34:32 devpinoyLogger Sprint Report table header text on position 10 is: Time Spent
+27/02/2020 18:34:32 devpinoyLogger Sprint Report table header text on position 11 is: 
+27/02/2020 18:34:32 devpinoyLogger Sprint Report table header text on position 1 is: Summary
+27/02/2020 18:34:32 devpinoyLogger Sprint Report table header text on position 2 is: Reporter
+27/02/2020 18:34:32 devpinoyLogger Sprint Report table header text on position 3 is: P
+27/02/2020 18:34:33 devpinoyLogger Sprint Report table header text on position 4 is: Status
+27/02/2020 18:34:33 devpinoyLogger Sprint Report table header text on position 5 is: Resolution
+27/02/2020 18:34:33 devpinoyLogger Sprint Report table header text on position 6 is: Updated
+27/02/2020 18:34:33 devpinoyLogger Sprint Report table header text on position 7 is: Description
+27/02/2020 18:34:33 devpinoyLogger Sprint Report table header text on position 8 is: Key
+27/02/2020 18:34:33 devpinoyLogger Sprint Report table header text on position 9 is: QA Owner
+27/02/2020 18:34:33 devpinoyLogger Sprint Report row 1 header 9 position text is: Naman Agrawal
+27/02/2020 18:34:33 devpinoyLogger Sprint Report row 2 header 9 position text is: Pratik Agrawal
+27/02/2020 18:34:33 devpinoyLogger Sprint Report row 3 header 9 position text is: Pratik Agrawal
+27/02/2020 18:34:33 devpinoyLogger Sprint Report row 4 header 9 position text is: 
+27/02/2020 18:34:33 devpinoyLogger Sprint Report row 5 header 9 position text is: Naman Agrawal
+27/02/2020 18:34:33 devpinoyLogger Sprint Report row 6 header 9 position text is: Naman Agrawal
+27/02/2020 18:34:33 devpinoyLogger Sprint Report row 7 header 9 position text is: Rijul Katyal
+27/02/2020 18:34:33 devpinoyLogger Sprint Report row 8 header 9 position text is: Manish Bhayana
+27/02/2020 18:34:34 devpinoyLogger Sprint Report row 9 header 9 position text is: Manish Bhayana
+27/02/2020 18:34:34 devpinoyLogger Sprint Report row 10 header 9 position text is: Pratik Agrawal
+27/02/2020 18:34:34 devpinoyLogger Sprint Report row 11 header 9 position text is: Naman Agrawal
+27/02/2020 18:34:34 devpinoyLogger Sprint Report row 12 header 9 position text is: 
+27/02/2020 18:34:34 devpinoyLogger Sprint Report row 13 header 9 position text is: Sambhav Aggarwal
+27/02/2020 18:34:34 devpinoyLogger Sprint Report row 14 header 9 position text is: Naman Agrawal
+27/02/2020 18:34:34 devpinoyLogger Sprint Report row 15 header 9 position text is: 
+27/02/2020 18:34:34 devpinoyLogger Sprint Report row 16 header 9 position text is: Manish Bhayana
+27/02/2020 18:34:34 devpinoyLogger Sprint Report row 17 header 9 position text is: Naman Agrawal
+27/02/2020 18:34:34 devpinoyLogger Sprint Report row 18 header 9 position text is: Pratik Agrawal
+27/02/2020 18:34:34 devpinoyLogger Sprint Report row 19 header 9 position text is: Sambhav Aggarwal
+27/02/2020 18:34:35 devpinoyLogger Sprint Report row 20 header 9 position text is: 
+27/02/2020 18:34:35 devpinoyLogger Sprint Report table header text on position 10 is: Time Spent
+27/02/2020 18:34:35 devpinoyLogger Sprint Report table header text on position 11 is: 
+27/02/2020 18:34:35 devpinoyLogger Sprint Report table header text on position 1 is: Summary
+27/02/2020 18:34:35 devpinoyLogger Sprint Report table header text on position 2 is: Reporter
+27/02/2020 18:34:35 devpinoyLogger Sprint Report table header text on position 3 is: P
+27/02/2020 18:34:35 devpinoyLogger Sprint Report table header text on position 4 is: Status
+27/02/2020 18:34:35 devpinoyLogger Sprint Report table header text on position 5 is: Resolution
+27/02/2020 18:34:35 devpinoyLogger Sprint Report table header text on position 6 is: Updated
+27/02/2020 18:34:35 devpinoyLogger Sprint Report table header text on position 7 is: Description
+27/02/2020 18:34:35 devpinoyLogger Sprint Report table header text on position 8 is: Key
+27/02/2020 18:34:35 devpinoyLogger Sprint Report table header text on position 9 is: QA Owner
+27/02/2020 18:34:35 devpinoyLogger Sprint Report table header text on position 10 is: Time Spent
+27/02/2020 18:34:35 devpinoyLogger Sprint Report table header text on position 11 is: 
+27/02/2020 18:34:35 devpinoyLogger Sprint Report table header text on position 1 is: Summary
+27/02/2020 18:34:35 devpinoyLogger Sprint Report table header text on position 2 is: Reporter
+27/02/2020 18:34:35 devpinoyLogger Sprint Report table header text on position 3 is: P
+27/02/2020 18:34:35 devpinoyLogger Sprint Report table header text on position 4 is: Status
+27/02/2020 18:34:35 devpinoyLogger Sprint Report table header text on position 5 is: Resolution
+27/02/2020 18:34:35 devpinoyLogger Sprint Report table header text on position 6 is: Updated
+27/02/2020 18:34:35 devpinoyLogger Sprint Report table header text on position 7 is: Description
+27/02/2020 18:34:35 devpinoyLogger Sprint Report table header text on position 8 is: Key
+27/02/2020 18:34:35 devpinoyLogger Sprint Report table header text on position 9 is: QA Owner
+27/02/2020 18:34:35 devpinoyLogger Sprint Report table header text on position 10 is: Time Spent
+27/02/2020 18:34:36 devpinoyLogger Sprint Report row 1 header 10 position text is: 4 hours
+27/02/2020 18:34:36 devpinoyLogger Sprint Report row 2 header 10 position text is: 
+27/02/2020 18:34:36 devpinoyLogger Sprint Report row 3 header 10 position text is: 
+27/02/2020 18:34:36 devpinoyLogger Sprint Report row 4 header 10 position text is: 
+27/02/2020 18:34:36 devpinoyLogger Sprint Report row 5 header 10 position text is: 
+27/02/2020 18:34:36 devpinoyLogger Sprint Report row 6 header 10 position text is: 4 hours
+27/02/2020 18:34:36 devpinoyLogger Sprint Report row 7 header 10 position text is: 2 hours
+27/02/2020 18:34:36 devpinoyLogger Sprint Report row 8 header 10 position text is: 
+27/02/2020 18:34:36 devpinoyLogger Sprint Report row 9 header 10 position text is: 
+27/02/2020 18:34:36 devpinoyLogger Sprint Report row 10 header 10 position text is: 1 hour
+27/02/2020 18:34:36 devpinoyLogger Sprint Report row 11 header 10 position text is: 
+27/02/2020 18:34:36 devpinoyLogger Sprint Report row 12 header 10 position text is: 2 hours
+27/02/2020 18:34:36 devpinoyLogger Sprint Report row 13 header 10 position text is: 30 minutes
+27/02/2020 18:34:36 devpinoyLogger Sprint Report row 14 header 10 position text is: 
+27/02/2020 18:34:36 devpinoyLogger Sprint Report row 15 header 10 position text is: 1 hour
+27/02/2020 18:34:37 devpinoyLogger Sprint Report row 16 header 10 position text is: 
+27/02/2020 18:34:37 devpinoyLogger Sprint Report row 17 header 10 position text is: 
+27/02/2020 18:34:37 devpinoyLogger Sprint Report row 18 header 10 position text is: 1 hour
+27/02/2020 18:34:37 devpinoyLogger Sprint Report row 19 header 10 position text is: 4 hours
+27/02/2020 18:34:37 devpinoyLogger Sprint Report row 20 header 10 position text is: 1 hour
+27/02/2020 18:34:37 devpinoyLogger Sprint Report table header text on position 11 is: 
+27/02/2020 18:34:37 devpinoyLogger Sprint Report table header text on position 1 is: Summary
+27/02/2020 18:34:37 devpinoyLogger Sprint Report table header text on position 2 is: Reporter
+27/02/2020 18:34:37 devpinoyLogger Sprint Report table header text on position 3 is: P
+27/02/2020 18:34:37 devpinoyLogger Sprint Report table header text on position 4 is: Status
+27/02/2020 18:34:37 devpinoyLogger Sprint Report table header text on position 5 is: Resolution
+27/02/2020 18:34:37 devpinoyLogger Sprint Report table header text on position 6 is: Updated
+27/02/2020 18:34:37 devpinoyLogger Sprint Report row 1 header 6 position text is: 30/May/19
+27/02/2020 18:34:37 devpinoyLogger Sprint Report row 2 header 6 position text is: 30/Jul/19
+27/02/2020 18:34:37 devpinoyLogger Sprint Report row 3 header 6 position text is: 30/Jul/19
+27/02/2020 18:34:37 devpinoyLogger Sprint Report row 4 header 6 position text is: 12/Aug/19
+27/02/2020 18:34:37 devpinoyLogger Sprint Report row 5 header 6 position text is: 26/Jul/19
+27/02/2020 18:34:38 devpinoyLogger Sprint Report row 6 header 6 position text is: 27/Jun/19
+27/02/2020 18:34:38 devpinoyLogger Sprint Report row 7 header 6 position text is: 06/Jun/19
+27/02/2020 18:34:38 devpinoyLogger Sprint Report row 8 header 6 position text is: 12/Aug/19
+27/02/2020 18:34:38 devpinoyLogger Sprint Report row 9 header 6 position text is: 12/Sep/19
+27/02/2020 18:34:38 devpinoyLogger Sprint Report row 10 header 6 position text is: 11/Jun/19
+27/02/2020 18:34:38 devpinoyLogger Sprint Report row 11 header 6 position text is: 25/Jul/19
+27/02/2020 18:34:38 devpinoyLogger Sprint Report row 12 header 6 position text is: 25/Jul/19
+27/02/2020 18:34:38 devpinoyLogger Sprint Report row 13 header 6 position text is: 06/Jun/19
+27/02/2020 18:34:38 devpinoyLogger Sprint Report row 14 header 6 position text is: 22/Sep/19
+27/02/2020 18:34:38 devpinoyLogger Sprint Report row 15 header 6 position text is: 05/Aug/19
+27/02/2020 18:34:38 devpinoyLogger Sprint Report row 16 header 6 position text is: 12/Aug/19
+27/02/2020 18:34:38 devpinoyLogger Sprint Report row 17 header 6 position text is: 01/Oct/19
+27/02/2020 18:34:38 devpinoyLogger Sprint Report row 18 header 6 position text is: 07/Jun/19
+27/02/2020 18:34:38 devpinoyLogger Sprint Report row 19 header 6 position text is: 12/Jun/19
+27/02/2020 18:34:39 devpinoyLogger Sprint Report row 20 header 6 position text is: 12/Jun/19
+27/02/2020 18:34:39 devpinoyLogger Sprint Report table header text on position 7 is: Description
+27/02/2020 18:34:39 devpinoyLogger Sprint Report table header text on position 8 is: Key
+27/02/2020 18:34:39 devpinoyLogger Sprint Report table header text on position 9 is: QA Owner
+27/02/2020 18:34:39 devpinoyLogger Sprint Report table header text on position 10 is: Time Spent
+27/02/2020 18:34:39 devpinoyLogger Sprint Report table header text on position 11 is: 
+27/02/2020 18:34:39 devpinoyLogger Closed Issue not Completed Window.
+27/02/2020 18:34:39 devpinoyLogger Click on Navigator for Issue Completed Outside.
+27/02/2020 18:34:43 devpinoyLogger Sprint Report table header count: 11
+27/02/2020 18:34:43 devpinoyLogger Sprint Report table row count: 2
+27/02/2020 18:34:43 devpinoyLogger Sprint Report table header text on position 1 is: Summary
+27/02/2020 18:34:43 devpinoyLogger Sprint Report row 1 header 1 position text is: Survey Builder: Manage client header theme
+27/02/2020 18:34:43 devpinoyLogger Sprint Report row 2 header 1 position text is: (May) Boolean queries in comment text search (simple)
+27/02/2020 18:34:43 devpinoyLogger Sprint Report table header text on position 2 is: Reporter
+27/02/2020 18:34:44 devpinoyLogger Sprint Report table header text on position 3 is: P
+27/02/2020 18:34:44 devpinoyLogger Sprint Report table header text on position 4 is: Status
+27/02/2020 18:34:44 devpinoyLogger Sprint Report table header text on position 5 is: Resolution
+27/02/2020 18:34:44 devpinoyLogger Sprint Report table header text on position 6 is: Updated
+27/02/2020 18:34:44 devpinoyLogger Sprint Report table header text on position 7 is: Description
+27/02/2020 18:34:44 devpinoyLogger Sprint Report table header text on position 8 is: Key
+27/02/2020 18:34:44 devpinoyLogger Sprint Report table header text on position 9 is: QA Owner
+27/02/2020 18:34:44 devpinoyLogger Sprint Report table header text on position 10 is: Time Spent
+27/02/2020 18:34:44 devpinoyLogger Sprint Report table header text on position 11 is: 
+27/02/2020 18:34:44 devpinoyLogger Sprint Report table header text on position 1 is: Summary
+27/02/2020 18:34:44 devpinoyLogger Sprint Report table header text on position 2 is: Reporter
+27/02/2020 18:34:44 devpinoyLogger Sprint Report table header text on position 3 is: P
+27/02/2020 18:34:44 devpinoyLogger Sprint Report table header text on position 4 is: Status
+27/02/2020 18:34:44 devpinoyLogger Sprint Report table header text on position 5 is: Resolution
+27/02/2020 18:34:44 devpinoyLogger Sprint Report table header text on position 6 is: Updated
+27/02/2020 18:34:44 devpinoyLogger Sprint Report table header text on position 7 is: Description
+27/02/2020 18:34:44 devpinoyLogger Sprint Report table header text on position 8 is: Key
+27/02/2020 18:34:44 devpinoyLogger Sprint Report row 1 header 8 position text is: S4-3152
+27/02/2020 18:34:45 devpinoyLogger Sprint Report row 2 header 8 position text is: S4-2600
+27/02/2020 18:34:45 devpinoyLogger Sprint Report table header text on position 9 is: QA Owner
+27/02/2020 18:34:45 devpinoyLogger Sprint Report table header text on position 10 is: Time Spent
+27/02/2020 18:34:45 devpinoyLogger Sprint Report table header text on position 11 is: 
+27/02/2020 18:34:45 devpinoyLogger Sprint Report table header text on position 1 is: Summary
+27/02/2020 18:34:45 devpinoyLogger Sprint Report table header text on position 2 is: Reporter
+27/02/2020 18:34:45 devpinoyLogger Sprint Report table header text on position 3 is: P
+27/02/2020 18:34:45 devpinoyLogger Sprint Report table header text on position 4 is: Status
+27/02/2020 18:34:45 devpinoyLogger Sprint Report table header text on position 5 is: Resolution
+27/02/2020 18:34:45 devpinoyLogger Sprint Report table header text on position 6 is: Updated
+27/02/2020 18:34:45 devpinoyLogger Sprint Report table header text on position 7 is: Description
+27/02/2020 18:34:45 devpinoyLogger Sprint Report table header text on position 8 is: Key
+27/02/2020 18:34:45 devpinoyLogger Sprint Report table header text on position 9 is: QA Owner
+27/02/2020 18:34:45 devpinoyLogger Sprint Report table header text on position 10 is: Time Spent
+27/02/2020 18:34:45 devpinoyLogger Sprint Report table header text on position 11 is: 
+27/02/2020 18:34:45 devpinoyLogger Sprint Report table header text on position 1 is: Summary
+27/02/2020 18:34:45 devpinoyLogger Sprint Report table header text on position 2 is: Reporter
+27/02/2020 18:34:45 devpinoyLogger Sprint Report table header text on position 3 is: P
+27/02/2020 18:34:45 devpinoyLogger Sprint Report table header text on position 4 is: Status
+27/02/2020 18:34:45 devpinoyLogger Sprint Report row 1 header 4 position text is: DONE
+27/02/2020 18:34:45 devpinoyLogger Sprint Report row 2 header 4 position text is: DONE
+27/02/2020 18:34:45 devpinoyLogger Sprint Report table header text on position 5 is: Resolution
+27/02/2020 18:34:46 devpinoyLogger Sprint Report table header text on position 6 is: Updated
+27/02/2020 18:34:46 devpinoyLogger Sprint Report table header text on position 7 is: Description
+27/02/2020 18:34:46 devpinoyLogger Sprint Report table header text on position 8 is: Key
+27/02/2020 18:34:46 devpinoyLogger Sprint Report table header text on position 9 is: QA Owner
+27/02/2020 18:34:46 devpinoyLogger Sprint Report table header text on position 10 is: Time Spent
+27/02/2020 18:34:46 devpinoyLogger Sprint Report table header text on position 11 is: 
+27/02/2020 18:34:46 devpinoyLogger Sprint Report table header text on position 1 is: Summary
+27/02/2020 18:34:46 devpinoyLogger Sprint Report table header text on position 2 is: Reporter
+27/02/2020 18:34:46 devpinoyLogger Sprint Report table header text on position 3 is: P
+27/02/2020 18:34:46 devpinoyLogger Sprint Report table header text on position 4 is: Status
+27/02/2020 18:34:46 devpinoyLogger Sprint Report table header text on position 5 is: Resolution
+27/02/2020 18:34:46 devpinoyLogger Sprint Report table header text on position 6 is: Updated
+27/02/2020 18:34:46 devpinoyLogger Sprint Report table header text on position 7 is: Description
+27/02/2020 18:34:46 devpinoyLogger Sprint Report table header text on position 8 is: Key
+27/02/2020 18:34:46 devpinoyLogger Sprint Report table header text on position 9 is: QA Owner
+27/02/2020 18:34:46 devpinoyLogger Sprint Report row 1 header 9 position text is: Pratik Agrawal
+27/02/2020 18:34:46 devpinoyLogger Sprint Report row 2 header 9 position text is: Rijul Katyal
+27/02/2020 18:34:46 devpinoyLogger Sprint Report table header text on position 10 is: Time Spent
+27/02/2020 18:34:46 devpinoyLogger Sprint Report table header text on position 11 is: 
+27/02/2020 18:34:46 devpinoyLogger Sprint Report table header text on position 1 is: Summary
+27/02/2020 18:34:46 devpinoyLogger Sprint Report table header text on position 2 is: Reporter
+27/02/2020 18:34:46 devpinoyLogger Sprint Report table header text on position 3 is: P
+27/02/2020 18:34:47 devpinoyLogger Sprint Report table header text on position 4 is: Status
+27/02/2020 18:34:47 devpinoyLogger Sprint Report table header text on position 5 is: Resolution
+27/02/2020 18:34:47 devpinoyLogger Sprint Report table header text on position 6 is: Updated
+27/02/2020 18:34:47 devpinoyLogger Sprint Report table header text on position 7 is: Description
+27/02/2020 18:34:47 devpinoyLogger Sprint Report table header text on position 8 is: Key
+27/02/2020 18:34:47 devpinoyLogger Sprint Report table header text on position 9 is: QA Owner
+27/02/2020 18:34:47 devpinoyLogger Sprint Report table header text on position 10 is: Time Spent
+27/02/2020 18:34:47 devpinoyLogger Sprint Report table header text on position 11 is: 
+27/02/2020 18:34:47 devpinoyLogger Sprint Report table header text on position 1 is: Summary
+27/02/2020 18:34:47 devpinoyLogger Sprint Report table header text on position 2 is: Reporter
+27/02/2020 18:34:47 devpinoyLogger Sprint Report table header text on position 3 is: P
+27/02/2020 18:34:47 devpinoyLogger Sprint Report table header text on position 4 is: Status
+27/02/2020 18:34:47 devpinoyLogger Sprint Report table header text on position 5 is: Resolution
+27/02/2020 18:34:47 devpinoyLogger Sprint Report table header text on position 6 is: Updated
+27/02/2020 18:34:47 devpinoyLogger Sprint Report table header text on position 7 is: Description
+27/02/2020 18:34:47 devpinoyLogger Sprint Report table header text on position 8 is: Key
+27/02/2020 18:34:47 devpinoyLogger Sprint Report table header text on position 9 is: QA Owner
+27/02/2020 18:34:47 devpinoyLogger Sprint Report table header text on position 10 is: Time Spent
+27/02/2020 18:34:47 devpinoyLogger Sprint Report row 1 header 10 position text is: 0 minutes
+27/02/2020 18:34:47 devpinoyLogger Sprint Report row 2 header 10 position text is: 
+27/02/2020 18:34:47 devpinoyLogger Sprint Report table header text on position 11 is: 
+27/02/2020 18:34:47 devpinoyLogger Sprint Report table header text on position 1 is: Summary
+27/02/2020 18:34:47 devpinoyLogger Sprint Report table header text on position 2 is: Reporter
+27/02/2020 18:34:48 devpinoyLogger Sprint Report table header text on position 3 is: P
+27/02/2020 18:34:48 devpinoyLogger Sprint Report table header text on position 4 is: Status
+27/02/2020 18:34:48 devpinoyLogger Sprint Report table header text on position 5 is: Resolution
+27/02/2020 18:34:48 devpinoyLogger Sprint Report table header text on position 6 is: Updated
+27/02/2020 18:34:48 devpinoyLogger Sprint Report row 1 header 6 position text is: 13/May/19
+27/02/2020 18:34:48 devpinoyLogger Sprint Report row 2 header 6 position text is: 13/May/19
+27/02/2020 18:34:48 devpinoyLogger Sprint Report table header text on position 7 is: Description
+27/02/2020 18:34:48 devpinoyLogger Sprint Report table header text on position 8 is: Key
+27/02/2020 18:34:48 devpinoyLogger Sprint Report table header text on position 9 is: QA Owner
+27/02/2020 18:34:48 devpinoyLogger Sprint Report table header text on position 10 is: Time Spent
+27/02/2020 18:34:48 devpinoyLogger Sprint Report table header text on position 11 is: 
+27/02/2020 18:34:48 devpinoyLogger Closed Issue Completed Outside Window.
+27/02/2020 18:34:48 devpinoyLogger Click on Navigator for Issue Removed.
+27/02/2020 18:34:52 devpinoyLogger Sprint Report table header count: 11
+27/02/2020 18:34:52 devpinoyLogger Sprint Report table row count: 1
+27/02/2020 18:34:52 devpinoyLogger Sprint Report table header text on position 1 is: Summary
+27/02/2020 18:34:53 devpinoyLogger Sprint Report row 1 header 1 position text is: Bulk User Upload Updates To Template And Import With Support For Multiple Nodes
+27/02/2020 18:34:53 devpinoyLogger Sprint Report table header text on position 2 is: Reporter
+27/02/2020 18:34:53 devpinoyLogger Sprint Report table header text on position 3 is: P
+27/02/2020 18:34:53 devpinoyLogger Sprint Report table header text on position 4 is: Status
+27/02/2020 18:34:53 devpinoyLogger Sprint Report table header text on position 5 is: Resolution
+27/02/2020 18:34:53 devpinoyLogger Sprint Report table header text on position 6 is: Updated
+27/02/2020 18:34:53 devpinoyLogger Sprint Report table header text on position 7 is: Description
+27/02/2020 18:34:53 devpinoyLogger Sprint Report table header text on position 8 is: Key
+27/02/2020 18:34:53 devpinoyLogger Sprint Report table header text on position 9 is: QA Owner
+27/02/2020 18:34:53 devpinoyLogger Sprint Report table header text on position 10 is: Time Spent
+27/02/2020 18:34:53 devpinoyLogger Sprint Report table header text on position 11 is: 
+27/02/2020 18:34:53 devpinoyLogger Sprint Report table header text on position 1 is: Summary
+27/02/2020 18:34:53 devpinoyLogger Sprint Report table header text on position 2 is: Reporter
+27/02/2020 18:34:53 devpinoyLogger Sprint Report table header text on position 3 is: P
+27/02/2020 18:34:53 devpinoyLogger Sprint Report table header text on position 4 is: Status
+27/02/2020 18:34:53 devpinoyLogger Sprint Report table header text on position 5 is: Resolution
+27/02/2020 18:34:53 devpinoyLogger Sprint Report table header text on position 6 is: Updated
+27/02/2020 18:34:53 devpinoyLogger Sprint Report table header text on position 7 is: Description
+27/02/2020 18:34:53 devpinoyLogger Sprint Report table header text on position 8 is: Key
+27/02/2020 18:34:53 devpinoyLogger Sprint Report row 1 header 8 position text is: S4-3202
+27/02/2020 18:34:53 devpinoyLogger Sprint Report table header text on position 9 is: QA Owner
+27/02/2020 18:34:54 devpinoyLogger Sprint Report table header text on position 10 is: Time Spent
+27/02/2020 18:34:54 devpinoyLogger Sprint Report table header text on position 11 is: 
+27/02/2020 18:34:54 devpinoyLogger Sprint Report table header text on position 1 is: Summary
+27/02/2020 18:34:54 devpinoyLogger Sprint Report table header text on position 2 is: Reporter
+27/02/2020 18:34:54 devpinoyLogger Sprint Report table header text on position 3 is: P
+27/02/2020 18:34:54 devpinoyLogger Sprint Report table header text on position 4 is: Status
+27/02/2020 18:34:54 devpinoyLogger Sprint Report table header text on position 5 is: Resolution
+27/02/2020 18:34:54 devpinoyLogger Sprint Report table header text on position 6 is: Updated
+27/02/2020 18:34:54 devpinoyLogger Sprint Report table header text on position 7 is: Description
+27/02/2020 18:34:54 devpinoyLogger Sprint Report table header text on position 8 is: Key
+27/02/2020 18:34:54 devpinoyLogger Sprint Report table header text on position 9 is: QA Owner
+27/02/2020 18:34:54 devpinoyLogger Sprint Report table header text on position 10 is: Time Spent
+27/02/2020 18:34:54 devpinoyLogger Sprint Report table header text on position 11 is: 
+27/02/2020 18:34:54 devpinoyLogger Sprint Report table header text on position 1 is: Summary
+27/02/2020 18:34:54 devpinoyLogger Sprint Report table header text on position 2 is: Reporter
+27/02/2020 18:34:54 devpinoyLogger Sprint Report table header text on position 3 is: P
+27/02/2020 18:34:54 devpinoyLogger Sprint Report table header text on position 4 is: Status
+27/02/2020 18:34:54 devpinoyLogger Sprint Report row 1 header 4 position text is: DONE
+27/02/2020 18:34:54 devpinoyLogger Sprint Report table header text on position 5 is: Resolution
+27/02/2020 18:34:54 devpinoyLogger Sprint Report table header text on position 6 is: Updated
+27/02/2020 18:34:54 devpinoyLogger Sprint Report table header text on position 7 is: Description
+27/02/2020 18:34:54 devpinoyLogger Sprint Report table header text on position 8 is: Key
+27/02/2020 18:34:54 devpinoyLogger Sprint Report table header text on position 9 is: QA Owner
+27/02/2020 18:34:54 devpinoyLogger Sprint Report table header text on position 10 is: Time Spent
+27/02/2020 18:34:54 devpinoyLogger Sprint Report table header text on position 11 is: 
+27/02/2020 18:34:55 devpinoyLogger Sprint Report table header text on position 1 is: Summary
+27/02/2020 18:34:55 devpinoyLogger Sprint Report table header text on position 2 is: Reporter
+27/02/2020 18:34:55 devpinoyLogger Sprint Report table header text on position 3 is: P
+27/02/2020 18:34:55 devpinoyLogger Sprint Report table header text on position 4 is: Status
+27/02/2020 18:34:55 devpinoyLogger Sprint Report table header text on position 5 is: Resolution
+27/02/2020 18:34:55 devpinoyLogger Sprint Report table header text on position 6 is: Updated
+27/02/2020 18:34:55 devpinoyLogger Sprint Report table header text on position 7 is: Description
+27/02/2020 18:34:55 devpinoyLogger Sprint Report table header text on position 8 is: Key
+27/02/2020 18:34:55 devpinoyLogger Sprint Report table header text on position 9 is: QA Owner
+27/02/2020 18:34:55 devpinoyLogger Sprint Report row 1 header 9 position text is: Rijul Katyal
+27/02/2020 18:34:55 devpinoyLogger Sprint Report table header text on position 10 is: Time Spent
+27/02/2020 18:34:55 devpinoyLogger Sprint Report table header text on position 11 is: 
+27/02/2020 18:34:55 devpinoyLogger Sprint Report table header text on position 1 is: Summary
+27/02/2020 18:34:55 devpinoyLogger Sprint Report table header text on position 2 is: Reporter
+27/02/2020 18:34:55 devpinoyLogger Sprint Report table header text on position 3 is: P
+27/02/2020 18:34:55 devpinoyLogger Sprint Report table header text on position 4 is: Status
+27/02/2020 18:34:55 devpinoyLogger Sprint Report table header text on position 5 is: Resolution
+27/02/2020 18:34:55 devpinoyLogger Sprint Report table header text on position 6 is: Updated
+27/02/2020 18:34:55 devpinoyLogger Sprint Report table header text on position 7 is: Description
+27/02/2020 18:34:55 devpinoyLogger Sprint Report table header text on position 8 is: Key
+27/02/2020 18:34:55 devpinoyLogger Sprint Report table header text on position 9 is: QA Owner
+27/02/2020 18:34:55 devpinoyLogger Sprint Report table header text on position 10 is: Time Spent
+27/02/2020 18:34:55 devpinoyLogger Sprint Report table header text on position 11 is: 
+27/02/2020 18:34:55 devpinoyLogger Sprint Report table header text on position 1 is: Summary
+27/02/2020 18:34:56 devpinoyLogger Sprint Report table header text on position 2 is: Reporter
+27/02/2020 18:34:56 devpinoyLogger Sprint Report table header text on position 3 is: P
+27/02/2020 18:34:56 devpinoyLogger Sprint Report table header text on position 4 is: Status
+27/02/2020 18:34:56 devpinoyLogger Sprint Report table header text on position 5 is: Resolution
+27/02/2020 18:34:56 devpinoyLogger Sprint Report table header text on position 6 is: Updated
+27/02/2020 18:34:56 devpinoyLogger Sprint Report table header text on position 7 is: Description
+27/02/2020 18:34:56 devpinoyLogger Sprint Report table header text on position 8 is: Key
+27/02/2020 18:34:56 devpinoyLogger Sprint Report table header text on position 9 is: QA Owner
+27/02/2020 18:34:56 devpinoyLogger Sprint Report table header text on position 10 is: Time Spent
+27/02/2020 18:34:56 devpinoyLogger Sprint Report row 1 header 10 position text is: 2 hours
+27/02/2020 18:34:56 devpinoyLogger Sprint Report table header text on position 11 is: 
+27/02/2020 18:34:56 devpinoyLogger Sprint Report table header text on position 1 is: Summary
+27/02/2020 18:34:56 devpinoyLogger Sprint Report table header text on position 2 is: Reporter
+27/02/2020 18:34:56 devpinoyLogger Sprint Report table header text on position 3 is: P
+27/02/2020 18:34:56 devpinoyLogger Sprint Report table header text on position 4 is: Status
+27/02/2020 18:34:56 devpinoyLogger Sprint Report table header text on position 5 is: Resolution
+27/02/2020 18:34:56 devpinoyLogger Sprint Report table header text on position 6 is: Updated
+27/02/2020 18:34:56 devpinoyLogger Sprint Report row 1 header 6 position text is: 01/Jul/19
+27/02/2020 18:34:56 devpinoyLogger Sprint Report table header text on position 7 is: Description
+27/02/2020 18:34:56 devpinoyLogger Sprint Report table header text on position 8 is: Key
+27/02/2020 18:34:56 devpinoyLogger Sprint Report table header text on position 9 is: QA Owner
+27/02/2020 18:34:56 devpinoyLogger Sprint Report table header text on position 10 is: Time Spent
+27/02/2020 18:34:56 devpinoyLogger Sprint Report table header text on position 11 is: 
+27/02/2020 18:34:57 devpinoyLogger Closed Issue Removed Window.
+27/02/2020 18:34:57 devpinoyLogger Test Case Completed: Get_Data_For_Available_Block
+27/02/2020 18:34:57 devpinoyLogger Sending Sprint Report to: naman.agrawal@quovantis.com
+27/02/2020 18:35:03 devpinoyLogger Sprint Report is sent to email: naman.agrawal@quovantis.com
+27/02/2020 18:35:07 devpinoyLogger Browser closed.

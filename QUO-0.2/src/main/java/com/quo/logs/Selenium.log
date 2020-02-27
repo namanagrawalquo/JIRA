@@ -1,0 +1,667 @@
+18:47:49,083  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:63 - Script is run by: Naman Agrawal
+18:47:49,327  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:140 - Moved the success screenshots to Backup Directory
+18:47:49,328  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:142 - Moved the failure screenshots to Backup Directory
+18:47:49,328  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:146 - Cleared the ScreenShots > Failure directory.
+18:47:49,330  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:148 - Cleared the ScreenShots > Success directory.
+18:48:00,052  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:178 - Chrome browser started: CDwindow-698149A786AFCA279654BE8089433AE4
+18:48:05,214  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:39 - Test Case Started: Check_Login_Is_Successful
+18:48:06,043  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:57 - Click on Google Sign-In button
+18:48:07,678  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:77 - Enter email: naman.agrawal@quovantis.com
+18:48:09,082  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:97 - Enter password: **********
+18:48:21,177  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:49 - Test Case Completed: Check_Login_Is_Successful
+18:48:22,047  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:42 - Test Case Started: Navigate_To_Sprint_Report
+18:48:27,205  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:105 - Navigation panel is displayed: true
+18:48:29,386  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:142 - Click on Reports link in left navigation.
+18:48:32,010  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:162 - Click on Sprint Report.
+18:48:32,085  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:183 - Sprint header text is: Sprint Report
+18:48:32,087  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:59 - Test Case Completed: Navigate_To_Sprint_Report
+18:48:32,630  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:73 - Test Case Started: Select_Sprint_In_Drop_Down
+18:48:32,765  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:206 - Current sprint dropdown text is: START4: Sprint 47
+18:48:32,894  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:228 - Click on Sprint Dropdown.
+18:48:33,509  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:248 - Selected Sprint in dropdown: START4: Sprint 30
+18:48:33,520  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:101 - Test Case Completed: Select_Sprint_In_Drop_Down
+18:48:33,998  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:115 - Test Case Started: Generate_XLSX_Template_For_Sprint_Report
+18:48:34,885  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:105 - Completed Issues sheet added
+18:48:34,886  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:110 - Issues Not Completed sheet added
+18:48:34,886  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:115 - Issues completed outside sheet added
+18:48:34,888  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:120 - Issues Removed From Sprint sheet added
+18:48:34,986  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:135 - Test Case Completed: Generate_XLSX_Template_For_Sprint_Report
+18:48:35,468  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:149 - Test Case Started: Get_Data_For_Available_Block
+18:48:35,694  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:319 - Click on Issue Navigator for Completed Issue.
+18:48:39,788  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:465 - Sprint Report table header count: 11
+18:48:39,856  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:485 - Sprint Report table row count: 14
+18:48:39,956  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 1 is: Summary
+18:48:40,042  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 1 header 1 position text is: If a user hierarchy node is updated then it results in the incorrect rendering of hierarchy tree when a regular user logged in to Start4.
+18:48:40,148  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 2 header 1 position text is: Supplemental Items : User is not able to see any supplemental items on reporting pages
+18:48:40,302  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 3 header 1 position text is: Switch Survey: On switch survey, if a user does not select the hierarchy node it results in incorrect rendering of hierarchy tree.
+18:48:40,461  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 4 header 1 position text is: Implement Dashboard API
+18:48:40,573  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 5 header 1 position text is: Allow user to login into Minders
+18:48:40,669  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 6 header 1 position text is: Survey Config: No border is shown on KPI in case of item, when the validation is getting off
+18:48:40,748  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 7 header 1 position text is: Time Trend: Null value is not handled when exporting report for All Items
+18:48:40,832  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 8 header 1 position text is: Hide Driver Matrix in under menu and slide config if it's not configured in survey config
+18:48:40,944  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 9 header 1 position text is: START3: Time Trend issue (Error downloading time trend)
+18:48:41,043  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 10 header 1 position text is: (May) Replicate the change we made to Start 3 filters to Start 4 where you can choose a single hierarchy node (which unselects prior selections) or select multiple hierarchy nodes
+18:48:41,169  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 11 header 1 position text is: (May) Sortable headers on the Multi-select
+18:48:41,290  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 12 header 1 position text is: (May) Sortable headers on the DD Table
+18:48:41,380  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 13 header 1 position text is: START3: Show/Hide TimeTrend page using Property
+18:48:41,464  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 14 header 1 position text is: (Apr) users who log into a report but also have org admin on a different folder should be able to switch back to another client bucket if they choose
+18:48:41,540  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 2 is: Reporter
+18:48:41,590  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 3 is: P
+18:48:41,640  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 4 is: Status
+18:48:41,710  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 5 is: Resolution
+18:48:41,773  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 6 is: Updated
+18:48:41,842  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 7 is: Description
+18:48:41,894  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 8 is: Key
+18:48:41,944  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 9 is: QA Owner
+18:48:41,994  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 10 is: Time Spent
+18:48:42,042  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 11 is: 
+18:48:42,096  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 1 is: Summary
+18:48:42,136  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 2 is: Reporter
+18:48:42,177  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 3 is: P
+18:48:42,218  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 4 is: Status
+18:48:42,263  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 5 is: Resolution
+18:48:42,304  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 6 is: Updated
+18:48:42,345  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 7 is: Description
+18:48:42,387  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 8 is: Key
+18:48:42,469  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 1 header 8 position text is: S4-3338
+18:48:42,548  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 2 header 8 position text is: S4-3328
+18:48:42,640  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 3 header 8 position text is: S4-3295
+18:48:42,721  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 4 header 8 position text is: S4-3272
+18:48:42,803  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 5 header 8 position text is: S4-3271
+18:48:42,889  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 6 header 8 position text is: S4-3224
+18:48:42,972  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 7 header 8 position text is: S4-3220
+18:48:43,060  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 8 header 8 position text is: S4-3166
+18:48:43,133  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 9 header 8 position text is: S4-3165
+18:48:43,205  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 10 header 8 position text is: S4-3144
+18:48:43,287  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 11 header 8 position text is: S4-3132
+18:48:43,360  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 12 header 8 position text is: S4-3131
+18:48:43,430  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 13 header 8 position text is: S4-3116
+18:48:43,503  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 14 header 8 position text is: S4-2634
+18:48:43,568  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 9 is: QA Owner
+18:48:43,618  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 10 is: Time Spent
+18:48:43,655  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 11 is: 
+18:48:43,704  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 1 is: Summary
+18:48:43,741  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 2 is: Reporter
+18:48:43,781  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 3 is: P
+18:48:43,824  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 4 is: Status
+18:48:43,865  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 5 is: Resolution
+18:48:43,904  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 6 is: Updated
+18:48:43,946  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 7 is: Description
+18:48:43,984  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 8 is: Key
+18:48:44,025  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 9 is: QA Owner
+18:48:44,065  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 10 is: Time Spent
+18:48:44,117  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 11 is: 
+18:48:44,167  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 1 is: Summary
+18:48:44,206  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 2 is: Reporter
+18:48:44,245  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 3 is: P
+18:48:44,285  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 4 is: Status
+18:48:44,322  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 5 is: Resolution
+18:48:44,363  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 6 is: Updated
+18:48:44,402  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 7 is: Description
+18:48:44,440  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 8 is: Key
+18:48:44,478  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 9 is: QA Owner
+18:48:44,518  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 10 is: Time Spent
+18:48:44,560  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 11 is: 
+18:48:44,632  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 1 is: Summary
+18:48:44,671  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 2 is: Reporter
+18:48:44,709  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 3 is: P
+18:48:44,745  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 4 is: Status
+18:48:44,821  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 1 header 4 position text is: DONE
+18:48:44,901  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 2 header 4 position text is: DONE
+18:48:44,976  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 3 header 4 position text is: DONE
+18:48:45,055  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 4 header 4 position text is: DONE
+18:48:45,125  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 5 header 4 position text is: DONE
+18:48:45,194  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 6 header 4 position text is: DONE
+18:48:45,266  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 7 header 4 position text is: DONE
+18:48:45,338  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 8 header 4 position text is: DONE
+18:48:45,412  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 9 header 4 position text is: DONE
+18:48:45,487  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 10 header 4 position text is: DONE
+18:48:45,598  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 11 header 4 position text is: DONE
+18:48:45,669  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 12 header 4 position text is: DONE
+18:48:45,740  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 13 header 4 position text is: DONE
+18:48:45,811  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 14 header 4 position text is: DONE
+18:48:45,880  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 5 is: Resolution
+18:48:45,920  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 6 is: Updated
+18:48:45,955  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 7 is: Description
+18:48:45,991  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 8 is: Key
+18:48:46,027  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 9 is: QA Owner
+18:48:46,074  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 10 is: Time Spent
+18:48:46,115  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 11 is: 
+18:48:46,165  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 1 is: Summary
+18:48:46,205  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 2 is: Reporter
+18:48:46,245  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 3 is: P
+18:48:46,286  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 4 is: Status
+18:48:46,323  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 5 is: Resolution
+18:48:46,363  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 6 is: Updated
+18:48:46,401  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 7 is: Description
+18:48:46,441  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 8 is: Key
+18:48:46,481  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 9 is: QA Owner
+18:48:46,562  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 1 header 9 position text is: Naman Agrawal
+18:48:46,636  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 2 header 9 position text is: 
+18:48:46,708  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 3 header 9 position text is: Naman Agrawal
+18:48:46,773  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 4 header 9 position text is: 
+18:48:46,848  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 5 header 9 position text is: 
+18:48:46,920  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 6 header 9 position text is: Manish Bhayana
+18:48:46,993  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 7 header 9 position text is: Manish Bhayana
+18:48:47,070  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 8 header 9 position text is: Manish Bhayana
+18:48:47,156  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 9 header 9 position text is: Manish Bhayana
+18:48:47,241  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 10 header 9 position text is: Pratik Agrawal
+18:48:47,315  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 11 header 9 position text is: Rijul Katyal
+18:48:47,384  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 12 header 9 position text is: Rijul Katyal
+18:48:47,454  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 13 header 9 position text is: Pratik Agrawal
+18:48:47,532  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 14 header 9 position text is: Rijul Katyal
+18:48:47,599  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 10 is: Time Spent
+18:48:47,637  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 11 is: 
+18:48:47,691  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 1 is: Summary
+18:48:47,733  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 2 is: Reporter
+18:48:47,773  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 3 is: P
+18:48:47,808  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 4 is: Status
+18:48:47,856  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 5 is: Resolution
+18:48:47,901  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 6 is: Updated
+18:48:47,939  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 7 is: Description
+18:48:47,977  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 8 is: Key
+18:48:48,013  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 9 is: QA Owner
+18:48:48,051  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 10 is: Time Spent
+18:48:48,092  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 11 is: 
+18:48:48,143  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 1 is: Summary
+18:48:48,183  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 2 is: Reporter
+18:48:48,219  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 3 is: P
+18:48:48,254  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 4 is: Status
+18:48:48,290  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 5 is: Resolution
+18:48:48,329  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 6 is: Updated
+18:48:48,373  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 7 is: Description
+18:48:48,414  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 8 is: Key
+18:48:48,449  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 9 is: QA Owner
+18:48:48,487  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 10 is: Time Spent
+18:48:48,555  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 1 header 10 position text is: 2 hours
+18:48:48,622  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 2 header 10 position text is: 5 hours
+18:48:48,693  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 3 header 10 position text is: 4 hours
+18:48:48,767  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 4 header 10 position text is: 
+18:48:48,842  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 5 header 10 position text is: 
+18:48:48,918  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 6 header 10 position text is: 2 hours
+18:48:48,987  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 7 header 10 position text is: 2 hours
+18:48:49,061  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 8 header 10 position text is: 1 hour
+18:48:49,141  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 9 header 10 position text is: 6 hours
+18:48:49,208  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 10 header 10 position text is: 
+18:48:49,277  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 11 header 10 position text is: 
+18:48:49,342  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 12 header 10 position text is: 
+18:48:49,433  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 13 header 10 position text is: 30 minutes
+18:48:49,517  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 14 header 10 position text is: 2 hours
+18:48:49,593  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 11 is: 
+18:48:49,644  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 1 is: Summary
+18:48:49,684  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 2 is: Reporter
+18:48:49,721  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 3 is: P
+18:48:49,759  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 4 is: Status
+18:48:49,798  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 5 is: Resolution
+18:48:49,836  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 6 is: Updated
+18:48:49,904  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 1 header 6 position text is: 24/May/19
+18:48:49,974  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 2 header 6 position text is: 24/May/19
+18:48:50,047  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 3 header 6 position text is: 15/May/19
+18:48:50,116  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 4 header 6 position text is: 24/May/19
+18:48:50,185  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 5 header 6 position text is: 24/May/19
+18:48:50,257  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 6 header 6 position text is: 16/May/19
+18:48:50,327  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 7 header 6 position text is: 17/May/19
+18:48:50,394  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 8 header 6 position text is: 20/May/19
+18:48:50,462  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 9 header 6 position text is: 17/May/19
+18:48:50,533  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 10 header 6 position text is: 24/May/19
+18:48:50,607  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 11 header 6 position text is: 16/May/19
+18:48:50,674  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 12 header 6 position text is: 24/May/19
+18:48:50,747  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 13 header 6 position text is: 20/May/19
+18:48:50,815  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 14 header 6 position text is: 14/May/19
+18:48:50,881  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 7 is: Description
+18:48:50,920  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 8 is: Key
+18:48:50,959  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 9 is: QA Owner
+18:48:50,999  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 10 is: Time Spent
+18:48:51,037  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 11 is: 
+18:48:51,106  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:338 - Closed Completed Issue Window.
+18:48:51,297  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:356 - Click on Navigator for Issue Not Completed.
+18:48:55,380  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:465 - Sprint Report table header count: 11
+18:48:55,439  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:485 - Sprint Report table row count: 20
+18:48:55,506  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 1 is: Summary
+18:48:55,579  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 1 header 1 position text is: Blank demographic filter section appears for an anonymous survey that has scored questions.
+18:48:55,649  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 2 header 1 position text is: SSO Validation for Regular and Client User Specific Issue
+18:48:55,728  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 3 header 1 position text is: SSO validation for client specific Issue
+18:48:55,799  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 4 header 1 position text is: Start3 : Hide/Show questions filters via new property
+18:48:55,887  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 5 header 1 position text is: User Management shows roles to which a user manager does not have access to on the roles drop down while creating/editing a user.
+18:48:55,955  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 6 header 1 position text is: Survey Property: AllowActionPlanForTheme property cannot be switched off.
+18:48:56,023  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 7 header 1 position text is: Support hierarchy trending via mapping table, to allow for different node IDs to map to each other
+18:48:56,095  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 8 header 1 position text is: All Results & Time Trend: Text wrap issue on exported excel file for headers and item/theme text
+18:48:56,166  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 9 header 1 position text is: Time Trend: Current item text is missing in exported excel file
+18:48:56,241  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 10 header 1 position text is: SSO based user authentication should be client specific
+18:48:56,323  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 11 header 1 position text is: Boolean query search with multiple And/ OR do not work consistently.
+18:48:56,404  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 12 header 1 position text is: Uncategorized comments are appearing on Dashboard whereas its not appearing on word cloud page
+18:48:56,481  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 13 header 1 position text is: Change Word Cloud Implementation To Use D3JS
+18:48:56,571  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 14 header 1 position text is: Survey Builder:Error message appearing on roster upload
+18:48:56,646  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 15 header 1 position text is: User is being shown duplicate hexagons for a single item on dashboard under key indicators
+18:48:56,722  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 16 header 1 position text is: Production: Start4: Less cards are getting render on team breakdown page
+18:48:56,789  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 17 header 1 position text is: Translations: Add support for Chinese and provide fallback support for requested culture
+18:48:56,863  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 18 header 1 position text is: Survey Configuration Slide Translation
+18:48:56,933  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 19 header 1 position text is: (May) Run NLP on comments offline in case where we did not enable NLP initially but want to include it now
+18:48:57,015  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 20 header 1 position text is: Link card implementation of Dashboard KPI
+18:48:57,087  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 2 is: Reporter
+18:48:57,133  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 3 is: P
+18:48:57,181  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 4 is: Status
+18:48:57,228  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 5 is: Resolution
+18:48:57,275  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 6 is: Updated
+18:48:57,323  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 7 is: Description
+18:48:57,371  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 8 is: Key
+18:48:57,421  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 9 is: QA Owner
+18:48:57,469  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 10 is: Time Spent
+18:48:57,514  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 11 is: 
+18:48:57,565  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 1 is: Summary
+18:48:57,604  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 2 is: Reporter
+18:48:57,640  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 3 is: P
+18:48:57,675  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 4 is: Status
+18:48:57,707  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 5 is: Resolution
+18:48:57,742  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 6 is: Updated
+18:48:57,778  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 7 is: Description
+18:48:57,821  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 8 is: Key
+18:48:57,911  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 1 header 8 position text is: S4-3348
+18:48:57,977  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 2 header 8 position text is: S4-3330
+18:48:58,042  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 3 header 8 position text is: S4-3329
+18:48:58,115  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 4 header 8 position text is: S4-3314
+18:48:58,179  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 5 header 8 position text is: S4-3297
+18:48:58,252  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 6 header 8 position text is: S4-3296
+18:48:58,320  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 7 header 8 position text is: S4-3287
+18:48:58,393  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 8 header 8 position text is: S4-3223
+18:48:58,461  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 9 header 8 position text is: S4-3222
+18:48:58,537  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 10 header 8 position text is: S4-3217
+18:48:58,610  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 11 header 8 position text is: S4-3216
+18:48:58,676  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 12 header 8 position text is: S4-3206
+18:48:58,745  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 13 header 8 position text is: S4-3203
+18:48:58,812  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 14 header 8 position text is: S4-3150
+18:48:58,888  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 15 header 8 position text is: S4-3105
+18:48:58,957  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 16 header 8 position text is: S4-3096
+18:48:59,023  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 17 header 8 position text is: S4-3083
+18:48:59,095  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 18 header 8 position text is: S4-2757
+18:48:59,171  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 19 header 8 position text is: S4-2595
+18:48:59,240  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 20 header 8 position text is: S4-1996
+18:48:59,297  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 9 is: QA Owner
+18:48:59,334  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 10 is: Time Spent
+18:48:59,374  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 11 is: 
+18:48:59,423  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 1 is: Summary
+18:48:59,462  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 2 is: Reporter
+18:48:59,499  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 3 is: P
+18:48:59,539  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 4 is: Status
+18:48:59,579  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 5 is: Resolution
+18:48:59,617  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 6 is: Updated
+18:48:59,655  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 7 is: Description
+18:48:59,695  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 8 is: Key
+18:48:59,732  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 9 is: QA Owner
+18:48:59,775  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 10 is: Time Spent
+18:48:59,810  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 11 is: 
+18:48:59,855  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 1 is: Summary
+18:48:59,891  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 2 is: Reporter
+18:48:59,932  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 3 is: P
+18:48:59,967  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 4 is: Status
+18:49:00,004  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 5 is: Resolution
+18:49:00,046  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 6 is: Updated
+18:49:00,090  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 7 is: Description
+18:49:00,124  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 8 is: Key
+18:49:00,159  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 9 is: QA Owner
+18:49:00,196  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 10 is: Time Spent
+18:49:00,234  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 11 is: 
+18:49:00,278  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 1 is: Summary
+18:49:00,316  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 2 is: Reporter
+18:49:00,352  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 3 is: P
+18:49:00,387  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 4 is: Status
+18:49:00,454  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 1 header 4 position text is: DONE
+18:49:00,525  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 2 header 4 position text is: OPEN
+18:49:00,597  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 3 header 4 position text is: OPEN
+18:49:00,664  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 4 header 4 position text is: RESOLVED
+18:49:00,729  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 5 header 4 position text is: DONE
+18:49:00,796  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 6 header 4 position text is: DONE
+18:49:00,862  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 7 header 4 position text is: DONE
+18:49:00,936  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 8 header 4 position text is: IN PROGRESS
+18:49:01,005  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 9 header 4 position text is: DONE
+18:49:01,076  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 10 header 4 position text is: DONE
+18:49:01,142  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 11 header 4 position text is: DONE
+18:49:01,206  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 12 header 4 position text is: DONE
+18:49:01,272  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 13 header 4 position text is: DONE
+18:49:01,342  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 14 header 4 position text is: OPEN
+18:49:01,410  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 15 header 4 position text is: DONE
+18:49:01,477  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 16 header 4 position text is: OPEN
+18:49:01,549  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 17 header 4 position text is: DONE
+18:49:01,617  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 18 header 4 position text is: DONE
+18:49:01,683  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 19 header 4 position text is: DONE
+18:49:01,756  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 20 header 4 position text is: DONE
+18:49:01,811  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 5 is: Resolution
+18:49:01,849  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 6 is: Updated
+18:49:01,887  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 7 is: Description
+18:49:01,927  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 8 is: Key
+18:49:01,966  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 9 is: QA Owner
+18:49:02,006  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 10 is: Time Spent
+18:49:02,044  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 11 is: 
+18:49:02,093  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 1 is: Summary
+18:49:02,129  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 2 is: Reporter
+18:49:02,179  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 3 is: P
+18:49:02,244  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 4 is: Status
+18:49:02,281  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 5 is: Resolution
+18:49:02,316  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 6 is: Updated
+18:49:02,356  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 7 is: Description
+18:49:02,391  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 8 is: Key
+18:49:02,428  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 9 is: QA Owner
+18:49:02,497  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 1 header 9 position text is: Naman Agrawal
+18:49:02,565  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 2 header 9 position text is: Pratik Agrawal
+18:49:02,631  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 3 header 9 position text is: Pratik Agrawal
+18:49:02,697  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 4 header 9 position text is: 
+18:49:02,766  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 5 header 9 position text is: Naman Agrawal
+18:49:02,838  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 6 header 9 position text is: Naman Agrawal
+18:49:02,910  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 7 header 9 position text is: Rijul Katyal
+18:49:02,979  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 8 header 9 position text is: Manish Bhayana
+18:49:03,046  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 9 header 9 position text is: Manish Bhayana
+18:49:03,115  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 10 header 9 position text is: Pratik Agrawal
+18:49:03,186  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 11 header 9 position text is: Naman Agrawal
+18:49:03,253  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 12 header 9 position text is: 
+18:49:03,328  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 13 header 9 position text is: Sambhav Aggarwal
+18:49:03,395  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 14 header 9 position text is: Naman Agrawal
+18:49:03,461  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 15 header 9 position text is: 
+18:49:03,527  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 16 header 9 position text is: Manish Bhayana
+18:49:03,596  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 17 header 9 position text is: Naman Agrawal
+18:49:03,669  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 18 header 9 position text is: Pratik Agrawal
+18:49:03,743  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 19 header 9 position text is: Sambhav Aggarwal
+18:49:03,833  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 20 header 9 position text is: 
+18:49:03,894  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 10 is: Time Spent
+18:49:03,931  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 11 is: 
+18:49:03,978  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 1 is: Summary
+18:49:04,016  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 2 is: Reporter
+18:49:04,055  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 3 is: P
+18:49:04,094  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 4 is: Status
+18:49:04,134  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 5 is: Resolution
+18:49:04,173  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 6 is: Updated
+18:49:04,214  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 7 is: Description
+18:49:04,255  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 8 is: Key
+18:49:04,292  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 9 is: QA Owner
+18:49:04,330  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 10 is: Time Spent
+18:49:04,368  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 11 is: 
+18:49:04,412  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 1 is: Summary
+18:49:04,449  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 2 is: Reporter
+18:49:04,488  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 3 is: P
+18:49:04,526  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 4 is: Status
+18:49:04,564  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 5 is: Resolution
+18:49:04,601  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 6 is: Updated
+18:49:04,637  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 7 is: Description
+18:49:04,680  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 8 is: Key
+18:49:04,722  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 9 is: QA Owner
+18:49:04,760  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 10 is: Time Spent
+18:49:04,838  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 1 header 10 position text is: 4 hours
+18:49:04,912  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 2 header 10 position text is: 
+18:49:05,002  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 3 header 10 position text is: 
+18:49:05,076  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 4 header 10 position text is: 
+18:49:05,144  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 5 header 10 position text is: 
+18:49:05,212  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 6 header 10 position text is: 4 hours
+18:49:05,279  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 7 header 10 position text is: 2 hours
+18:49:05,346  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 8 header 10 position text is: 
+18:49:05,422  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 9 header 10 position text is: 
+18:49:05,492  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 10 header 10 position text is: 1 hour
+18:49:05,566  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 11 header 10 position text is: 
+18:49:05,633  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 12 header 10 position text is: 2 hours
+18:49:05,704  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 13 header 10 position text is: 30 minutes
+18:49:05,778  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 14 header 10 position text is: 
+18:49:05,848  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 15 header 10 position text is: 1 hour
+18:49:05,918  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 16 header 10 position text is: 
+18:49:05,993  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 17 header 10 position text is: 
+18:49:06,060  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 18 header 10 position text is: 1 hour
+18:49:06,128  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 19 header 10 position text is: 4 hours
+18:49:06,193  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 20 header 10 position text is: 1 hour
+18:49:06,248  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 11 is: 
+18:49:06,291  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 1 is: Summary
+18:49:06,330  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 2 is: Reporter
+18:49:06,382  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 3 is: P
+18:49:06,425  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 4 is: Status
+18:49:06,463  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 5 is: Resolution
+18:49:06,500  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 6 is: Updated
+18:49:06,573  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 1 header 6 position text is: 30/May/19
+18:49:06,641  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 2 header 6 position text is: 30/Jul/19
+18:49:06,708  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 3 header 6 position text is: 30/Jul/19
+18:49:06,772  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 4 header 6 position text is: 12/Aug/19
+18:49:06,842  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 5 header 6 position text is: 26/Jul/19
+18:49:06,928  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 6 header 6 position text is: 27/Jun/19
+18:49:06,996  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 7 header 6 position text is: 06/Jun/19
+18:49:07,066  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 8 header 6 position text is: 12/Aug/19
+18:49:07,137  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 9 header 6 position text is: 12/Sep/19
+18:49:07,204  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 10 header 6 position text is: 11/Jun/19
+18:49:07,275  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 11 header 6 position text is: 25/Jul/19
+18:49:07,352  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 12 header 6 position text is: 25/Jul/19
+18:49:07,428  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 13 header 6 position text is: 06/Jun/19
+18:49:07,495  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 14 header 6 position text is: 22/Sep/19
+18:49:07,572  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 15 header 6 position text is: 05/Aug/19
+18:49:07,649  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 16 header 6 position text is: 12/Aug/19
+18:49:07,714  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 17 header 6 position text is: 01/Oct/19
+18:49:07,784  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 18 header 6 position text is: 07/Jun/19
+18:49:07,853  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 19 header 6 position text is: 12/Jun/19
+18:49:07,925  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 20 header 6 position text is: 12/Jun/19
+18:49:07,983  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 7 is: Description
+18:49:08,022  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 8 is: Key
+18:49:08,062  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 9 is: QA Owner
+18:49:08,141  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 10 is: Time Spent
+18:49:08,190  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 11 is: 
+18:49:08,254  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:375 - Closed Issue not Completed Window.
+18:49:08,406  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:393 - Click on Navigator for Issue Completed Outside.
+18:49:12,496  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:465 - Sprint Report table header count: 11
+18:49:12,549  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:485 - Sprint Report table row count: 2
+18:49:12,615  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 1 is: Summary
+18:49:12,680  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 1 header 1 position text is: Survey Builder: Manage client header theme
+18:49:12,744  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 2 header 1 position text is: (May) Boolean queries in comment text search (simple)
+18:49:12,815  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 2 is: Reporter
+18:49:12,863  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 3 is: P
+18:49:12,909  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 4 is: Status
+18:49:12,955  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 5 is: Resolution
+18:49:13,001  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 6 is: Updated
+18:49:13,047  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 7 is: Description
+18:49:13,089  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 8 is: Key
+18:49:13,134  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 9 is: QA Owner
+18:49:13,177  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 10 is: Time Spent
+18:49:13,220  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 11 is: 
+18:49:13,267  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 1 is: Summary
+18:49:13,304  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 2 is: Reporter
+18:49:13,360  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 3 is: P
+18:49:13,404  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 4 is: Status
+18:49:13,440  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 5 is: Resolution
+18:49:13,476  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 6 is: Updated
+18:49:13,510  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 7 is: Description
+18:49:13,546  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 8 is: Key
+18:49:13,613  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 1 header 8 position text is: S4-3152
+18:49:13,678  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 2 header 8 position text is: S4-2600
+18:49:13,732  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 9 is: QA Owner
+18:49:13,770  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 10 is: Time Spent
+18:49:13,809  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 11 is: 
+18:49:13,859  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 1 is: Summary
+18:49:13,895  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 2 is: Reporter
+18:49:13,933  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 3 is: P
+18:49:13,967  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 4 is: Status
+18:49:14,003  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 5 is: Resolution
+18:49:14,042  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 6 is: Updated
+18:49:14,078  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 7 is: Description
+18:49:14,115  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 8 is: Key
+18:49:14,151  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 9 is: QA Owner
+18:49:14,187  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 10 is: Time Spent
+18:49:14,223  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 11 is: 
+18:49:14,283  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 1 is: Summary
+18:49:14,333  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 2 is: Reporter
+18:49:14,380  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 3 is: P
+18:49:14,416  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 4 is: Status
+18:49:14,460  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 5 is: Resolution
+18:49:14,503  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 6 is: Updated
+18:49:14,550  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 7 is: Description
+18:49:14,596  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 8 is: Key
+18:49:14,636  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 9 is: QA Owner
+18:49:14,716  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 10 is: Time Spent
+18:49:14,746  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 11 is: 
+18:49:14,788  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 1 is: Summary
+18:49:14,823  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 2 is: Reporter
+18:49:14,860  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 3 is: P
+18:49:14,899  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 4 is: Status
+18:49:14,968  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 1 header 4 position text is: DONE
+18:49:15,035  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 2 header 4 position text is: DONE
+18:49:15,094  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 5 is: Resolution
+18:49:15,130  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 6 is: Updated
+18:49:15,165  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 7 is: Description
+18:49:15,202  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 8 is: Key
+18:49:15,239  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 9 is: QA Owner
+18:49:15,277  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 10 is: Time Spent
+18:49:15,313  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 11 is: 
+18:49:15,360  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 1 is: Summary
+18:49:15,394  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 2 is: Reporter
+18:49:15,426  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 3 is: P
+18:49:15,461  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 4 is: Status
+18:49:15,494  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 5 is: Resolution
+18:49:15,529  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 6 is: Updated
+18:49:15,568  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 7 is: Description
+18:49:15,604  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 8 is: Key
+18:49:15,643  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 9 is: QA Owner
+18:49:15,708  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 1 header 9 position text is: Pratik Agrawal
+18:49:15,773  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 2 header 9 position text is: Rijul Katyal
+18:49:15,830  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 10 is: Time Spent
+18:49:15,865  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 11 is: 
+18:49:15,915  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 1 is: Summary
+18:49:15,950  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 2 is: Reporter
+18:49:15,984  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 3 is: P
+18:49:16,022  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 4 is: Status
+18:49:16,059  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 5 is: Resolution
+18:49:16,097  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 6 is: Updated
+18:49:16,134  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 7 is: Description
+18:49:16,172  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 8 is: Key
+18:49:16,210  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 9 is: QA Owner
+18:49:16,244  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 10 is: Time Spent
+18:49:16,294  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 11 is: 
+18:49:16,338  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 1 is: Summary
+18:49:16,373  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 2 is: Reporter
+18:49:16,435  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 3 is: P
+18:49:16,471  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 4 is: Status
+18:49:16,506  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 5 is: Resolution
+18:49:16,540  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 6 is: Updated
+18:49:16,577  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 7 is: Description
+18:49:16,616  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 8 is: Key
+18:49:16,654  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 9 is: QA Owner
+18:49:16,691  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 10 is: Time Spent
+18:49:16,756  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 1 header 10 position text is: 0 minutes
+18:49:16,819  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 2 header 10 position text is: 
+18:49:16,875  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 11 is: 
+18:49:16,917  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 1 is: Summary
+18:49:16,953  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 2 is: Reporter
+18:49:16,989  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 3 is: P
+18:49:17,025  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 4 is: Status
+18:49:17,060  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 5 is: Resolution
+18:49:17,097  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 6 is: Updated
+18:49:17,161  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 1 header 6 position text is: 13/May/19
+18:49:17,225  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 2 header 6 position text is: 13/May/19
+18:49:17,283  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 7 is: Description
+18:49:17,319  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 8 is: Key
+18:49:17,355  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 9 is: QA Owner
+18:49:17,392  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 10 is: Time Spent
+18:49:17,429  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 11 is: 
+18:49:17,492  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:412 - Closed Issue Completed Outside Window.
+18:49:17,644  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:430 - Click on Navigator for Issue Removed.
+18:49:21,721  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:465 - Sprint Report table header count: 11
+18:49:21,765  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:485 - Sprint Report table row count: 1
+18:49:21,829  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 1 is: Summary
+18:49:21,897  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 1 header 1 position text is: Bulk User Upload Updates To Template And Import With Support For Multiple Nodes
+18:49:21,961  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 2 is: Reporter
+18:49:22,019  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 3 is: P
+18:49:22,066  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 4 is: Status
+18:49:22,127  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 5 is: Resolution
+18:49:22,174  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 6 is: Updated
+18:49:22,218  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 7 is: Description
+18:49:22,265  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 8 is: Key
+18:49:22,310  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 9 is: QA Owner
+18:49:22,364  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 10 is: Time Spent
+18:49:22,408  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 11 is: 
+18:49:22,450  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 1 is: Summary
+18:49:22,482  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 2 is: Reporter
+18:49:22,517  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 3 is: P
+18:49:22,555  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 4 is: Status
+18:49:22,590  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 5 is: Resolution
+18:49:22,632  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 6 is: Updated
+18:49:22,668  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 7 is: Description
+18:49:22,705  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 8 is: Key
+18:49:22,767  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 1 header 8 position text is: S4-3202
+18:49:22,823  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 9 is: QA Owner
+18:49:22,856  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 10 is: Time Spent
+18:49:22,891  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 11 is: 
+18:49:22,935  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 1 is: Summary
+18:49:22,971  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 2 is: Reporter
+18:49:23,008  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 3 is: P
+18:49:23,044  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 4 is: Status
+18:49:23,091  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 5 is: Resolution
+18:49:23,123  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 6 is: Updated
+18:49:23,155  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 7 is: Description
+18:49:23,188  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 8 is: Key
+18:49:23,222  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 9 is: QA Owner
+18:49:23,262  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 10 is: Time Spent
+18:49:23,296  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 11 is: 
+18:49:23,347  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 1 is: Summary
+18:49:23,381  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 2 is: Reporter
+18:49:23,416  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 3 is: P
+18:49:23,463  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 4 is: Status
+18:49:23,498  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 5 is: Resolution
+18:49:23,537  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 6 is: Updated
+18:49:23,576  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 7 is: Description
+18:49:23,614  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 8 is: Key
+18:49:23,651  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 9 is: QA Owner
+18:49:23,697  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 10 is: Time Spent
+18:49:23,737  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 11 is: 
+18:49:23,783  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 1 is: Summary
+18:49:23,821  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 2 is: Reporter
+18:49:23,857  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 3 is: P
+18:49:23,892  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 4 is: Status
+18:49:23,955  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 1 header 4 position text is: DONE
+18:49:24,006  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 5 is: Resolution
+18:49:24,039  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 6 is: Updated
+18:49:24,075  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 7 is: Description
+18:49:24,112  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 8 is: Key
+18:49:24,148  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 9 is: QA Owner
+18:49:24,185  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 10 is: Time Spent
+18:49:24,220  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 11 is: 
+18:49:24,265  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 1 is: Summary
+18:49:24,300  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 2 is: Reporter
+18:49:24,335  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 3 is: P
+18:49:24,372  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 4 is: Status
+18:49:24,409  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 5 is: Resolution
+18:49:24,443  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 6 is: Updated
+18:49:24,478  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 7 is: Description
+18:49:24,516  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 8 is: Key
+18:49:24,552  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 9 is: QA Owner
+18:49:24,622  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 1 header 9 position text is: Rijul Katyal
+18:49:24,677  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 10 is: Time Spent
+18:49:24,711  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 11 is: 
+18:49:24,753  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 1 is: Summary
+18:49:24,792  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 2 is: Reporter
+18:49:24,826  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 3 is: P
+18:49:24,859  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 4 is: Status
+18:49:24,893  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 5 is: Resolution
+18:49:24,930  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 6 is: Updated
+18:49:24,964  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 7 is: Description
+18:49:25,013  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 8 is: Key
+18:49:25,050  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 9 is: QA Owner
+18:49:25,090  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 10 is: Time Spent
+18:49:25,139  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 11 is: 
+18:49:25,185  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 1 is: Summary
+18:49:25,220  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 2 is: Reporter
+18:49:25,257  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 3 is: P
+18:49:25,292  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 4 is: Status
+18:49:25,328  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 5 is: Resolution
+18:49:25,362  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 6 is: Updated
+18:49:25,402  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 7 is: Description
+18:49:25,436  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 8 is: Key
+18:49:25,471  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 9 is: QA Owner
+18:49:25,508  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 10 is: Time Spent
+18:49:25,576  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 1 header 10 position text is: 2 hours
+18:49:25,634  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 11 is: 
+18:49:25,677  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 1 is: Summary
+18:49:25,714  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 2 is: Reporter
+18:49:25,751  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 3 is: P
+18:49:25,787  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 4 is: Status
+18:49:25,823  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 5 is: Resolution
+18:49:25,860  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 6 is: Updated
+18:49:25,921  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:532 - Sprint Report row 1 header 6 position text is: 01/Jul/19
+18:49:25,970  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 7 is: Description
+18:49:26,005  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 8 is: Key
+18:49:26,041  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 9 is: QA Owner
+18:49:26,078  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 10 is: Time Spent
+18:49:26,115  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:508 - Sprint Report table header text on position 11 is: 
+18:49:26,146  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:449 - Closed Issue Removed Window.
+18:49:26,146  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:308 - Test Case Completed: Get_Data_For_Available_Block
+18:49:26,750 DEBUG devpinoyLogger<strong><strong>{1}</strong></strong>:124 - Sending Sprint Report to: naman.agrawal@quovantis.com
+18:49:31,745 DEBUG devpinoyLogger<strong><strong>{1}</strong></strong>:128 - Sprint Report is sent to email: naman.agrawal@quovantis.com
+18:49:36,362  INFO devpinoyLogger<strong><strong>{1}</strong></strong>:194 - Browser closed.
