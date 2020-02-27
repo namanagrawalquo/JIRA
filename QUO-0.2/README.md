@@ -7,13 +7,12 @@
 - This script will get the JIRA Sprint Report Data and generated report will share over the email.
 
 ### Prerequisites
-- **JAVA 1.8** should be available on the machine.
-- **Chrome** should be installed on the machine.
+- **JAVA 1.8** and **Chrome** should be installed on the machine.
 	- If installed Chrome browser version is above **80.0.3987.116** then you may need to update the Chrome driver according to the installed Chrome browser version.
-	- Go to https://chromedriver.chromium.org/ download the zip file and replace **chromedriver.exe** on **\deploy\src\main\resources\Drivers** location.
+	- Go to https://chromedriver.chromium.org/ download the zip file and replace **chromedriver.exe** on **\JIRA\QUO-0.2\\deploy\src\main\resources\Drivers** location.
 
 ### Configuration
-- Open **\src\main\resources\DataFiles\Configuration.xlsx** file in Excel
+- Open **\JIRA\QUO-0.2\deploy\src\main\resources\DataFiles\Configuration.xlsx** file in Excel
 	- In **"Config"** sheet, updated followings:
 		- **URL**: This should be the JIRA login page URL.
 		- **Project Key**: This should be the JIRA Project Key.
@@ -35,3 +34,7 @@
 - You will see the following text after successful execution of script
 	- `Total tests run: 6, Failures: 0, Skips: 0`
 - Report will share to user over an email.
+
+### Logs
+
+- Logs will be generated for each execution and can be found on **\JIRA\QUO-0.2\deploy\src\main\java\com\quo\logs** location.
