@@ -38,3 +38,14 @@
 ### Logs
 
 - Logs will be generated for each execution and can be found on **\JIRA\QUO-0.2\deploy\src\main\java\com\quo\logs** location.
+
+# Release 0.2 | Date: 01 Mar 2020
+
+- "Sprint" value can be passed as a parameter in command prompt. If "Sprint" value is not passed in parameter then it's value will fetch from "Configuration.xlsx" file.
+- Command with sprint paramater:
+	- `java -jar -Dsprint="Start4: Sprint 34" QUO-0.2-0.0.1-SNAPSHOT.jar testng.xml`
+- Command without sprint paramater:
+	- `java -jar QUO-0.2-0.0.1-SNAPSHOT.jar testng.xml`
+- Fixed element not found issue when selecting the sprint on sprint report page.
+- Reduced element waiting time from 20 to 10 seconds.
+- Updated email subject and body text

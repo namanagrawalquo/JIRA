@@ -15,10 +15,23 @@
           <suiteXmlFiles>
             <suiteXmlFile>testng.xml</suiteXmlFile>
           </suiteXmlFiles>
+          <systemPropertyVariables>
+            <sprint>${sprint}</sprint>
+          </systemPropertyVariables>
+        </configuration>
+      </plugin>
+      <plugin>
+        <artifactId>maven-jar-plugin</artifactId>
+        <version>3.2.0</version>
+        <configuration>
+          <excludes>
+            <exclude>**/*.xlsx</exclude>
+          </excludes>
         </configuration>
       </plugin>
       <plugin>
         <artifactId>maven-assembly-plugin</artifactId>
+        <version>3.0.0</version>
         <executions>
           <execution>
             <phase>package</phase>
@@ -79,5 +92,6 @@
   <properties>
     <suiteXmlFile>testng.xml</suiteXmlFile>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <sprint>DefaultSprint</sprint>
   </properties>
 </project>

@@ -11,6 +11,7 @@
   <properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<suiteXmlFile>testng.xml</suiteXmlFile>
+		<sprint>DefaultSprint</sprint>
 	</properties>
 
 	<dependencies>
@@ -136,6 +137,9 @@
 					<suiteXmlFiles>
 						<suiteXmlFile>testng.xml</suiteXmlFile>
 					</suiteXmlFiles>
+					<systemPropertyVariables>
+                        <sprint>${sprint}</sprint>
+                    </systemPropertyVariables>
 				</configuration>
 			</plugin>
 			<plugin>

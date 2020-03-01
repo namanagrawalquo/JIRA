@@ -10,7 +10,6 @@ import org.openqa.selenium.ElementNotVisibleException;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -256,53 +255,66 @@ public class SprintReportPage {
 	
 	public boolean completedIssuesAvailable()
 	{
+		boolean isVisible = false;
 		try
 		{
-			return isElementVisible(sprintReportIssueCompleted);
+			isVisible = isElementVisible(sprintReportIssueCompleted);
+			logger.info("Completed Issue block available: "+isVisible);
+			return isVisible;
 		}
 		catch(Exception ex)
 		{
-			logger.info("Exception Occurred: "+ex);
-			return false;
+			logger.info("Completed Issue block available: "+isVisible);
+			return isVisible;
 		}
 	}
 	
 	public boolean issueNotCompletedAvailable()
 	{
+		boolean isVisible = false;
 		try
 		{
-			return isElementVisible(sprintReportIssueNotCompleted);
+			isVisible = isElementVisible(sprintReportIssueNotCompleted);
+			logger.info("Issue Not Completed block available: "+isVisible);
+			return isVisible;
 		}
 		catch(Exception ex)
 		{
-			logger.info("Exception Occurred: "+ex);
-			return false;
+			logger.info("Issue Not Completed block available: "+isVisible);
+			return isVisible;
 		}
 	}
 	
 	public boolean issueCompletedOutsideAvailable()
 	{
+		boolean isVisible = false;
 		try
 		{
-			return isElementVisible(sprintReportIssueCompletedOutside);
+			
+			isVisible = isElementVisible(sprintReportIssueCompletedOutside);
+			logger.info("Issue Completed Outside block available: "+isVisible);
+			return isVisible;
 		}
 		catch(Exception ex)
 		{
-			logger.info("Exception Occurred: "+ex);
-			return false;
+			logger.info("Issue Completed Outside block available: "+isVisible);
+			return isVisible;
 		}
 	}
 	
 	public boolean issueRemovedAvailable()
 	{
+		boolean isVisible = false;
 		try
 		{
-			return isElementVisible(sprintReportIssueRemoved);
+			isVisible = isElementVisible(sprintReportIssueRemoved);
+			logger.info("Issue Removed block available: "+isVisible);
+			return isVisible;
 		}
 		catch(Exception ex)
 		{
-			logger.info("Exception Occurred: "+ex);
-			return false;
+			logger.info("Issue Removed block available: "+isVisible);
+			return isVisible;
 		}
 	}
 	
@@ -546,7 +558,7 @@ public class SprintReportPage {
 		boolean isVisible = false;
 		try
 		{
-			WebDriverWait wait = new WebDriverWait(wdr, 20);
+			WebDriverWait wait = new WebDriverWait(wdr, 10);
 			wait.until(ExpectedConditions.visibilityOf(element));
 			if(element.isDisplayed())
 			{

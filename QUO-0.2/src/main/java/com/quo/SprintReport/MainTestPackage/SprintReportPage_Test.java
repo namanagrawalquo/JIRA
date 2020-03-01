@@ -1,4 +1,6 @@
 package com.quo.SprintReport.MainTestPackage;
+import org.testng.annotations.Optional;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
@@ -28,6 +30,7 @@ public class SprintReportPage_Test extends CreateDriver {
 	boolean issueRemovedDisplayed;
 	
 	String createdWorkbookPath;
+	String sprintNumber = "";
 	
 	ReadXLS xlsOperations = new ReadXLS();
 	Email email = new Email();
@@ -66,7 +69,8 @@ public class SprintReportPage_Test extends CreateDriver {
 	}
 	
 	@Test (priority = 3, dependsOnMethods = {"Navigate_To_Sprint_Report"})
-	public void Select_Sprint_In_Drop_Down()
+	@Parameters({"sprint"})
+	public void Select_Sprint_In_Drop_Down(@Optional("UseDataSheetSprint") String sprint)
 	{
 		try
 		{
@@ -74,7 +78,15 @@ public class SprintReportPage_Test extends CreateDriver {
 			SoftAssert softAssertion = new SoftAssert();
 			sprintReportPage = new SprintReportPage(driver);
 			
-			String sprintNumber = xlsOperations.readConfigData(configFilePath, 0, 4, 1);
+			if(sprint.equals("DefaultSprint") || sprint.equals("UseDataSheetSprint"))
+			{
+				sprintNumber = xlsOperations.readConfigData(configFilePath, 0, 4, 1);
+			}
+			else
+			{
+				sprintNumber = sprint;
+			}
+
 			String selectedSprintNumber = sprintReportPage.getCurrentSprintNumber();
 			//String firstSplit = selectedSprintNumber.substring(0,selectedSprintNumber.lastIndexOf(" ") + 1).trim();
 			// String secondSplit = selectedSprintNumber.substring(selectedSprintNumber.lastIndexOf(" ") + 1).trim();
@@ -115,7 +127,9 @@ public class SprintReportPage_Test extends CreateDriver {
 			logger.info("Test Case Started: Generate_XLSX_Template_For_Sprint_Report");
 			SoftAssert softAssertion = new SoftAssert();
 			sprintReportPage = new SprintReportPage(driver);
-					
+			
+			driver.navigate().refresh();
+			
 			completedIssuesDisplayed = sprintReportPage.completedIssuesAvailable();
 			issueNotCompletedDisplayed = sprintReportPage.issueNotCompletedAvailable();
 			issueCompletedOutsideDisplayed = sprintReportPage.issueCompletedOutsideAvailable();
@@ -325,7 +339,7 @@ public class SprintReportPage_Test extends CreateDriver {
 			String emailTo = xlsOperations.readConfigData(configFilePath, 0, 5, 1);
 			String emailFrom = xlsOperations.readConfigData(configFilePath, 0, 6, 1);
 			String emailFromPassword = xlsOperations.readConfigData(configFilePath, 0, 7, 1);
-			boolean emailSentStatus = email.sendSprintReport(createdWorkbookPath, emailTo, emailFrom, emailFromPassword);
+			boolean emailSentStatus = email.sendSprintReport(createdWorkbookPath, emailTo, emailFrom, emailFromPassword, sprintNumber);
 			
 			softAssertion.assertEquals(emailSentStatus, true, "Email is not sent");
 			softAssertion.assertAll();
